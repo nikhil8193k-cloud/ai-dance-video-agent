@@ -1,0 +1,11 @@
+{
+  "queue": [],
+  "completed": [],
+  "failed": [],
+  "metadata": {
+    "created_at": "",
+    "last_updated": "",
+    "total_generated": 0,
+    "total_failed": 0
+  }
+}

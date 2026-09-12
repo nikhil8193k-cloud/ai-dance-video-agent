@@ -1,0 +1,46 @@
+{
+  "production": {
+    "target_videos": 10,
+    "max_concurrent_workers": 1,
+    "retry_limit": 3,
+    "stuck_job_timeout_minutes": 30
+  },
+  "trends": {
+    "refresh_interval_hours": 2,
+    "max_trends_per_run": 20,
+    "min_trend_score": 5,
+    "history_lookback_days": 7
+  },
+  "video": {
+    "width": 576,
+    "height": 1024,
+    "fps": 16,
+    "num_frames": 81,
+    "output_format": "mp4",
+    "quality_min_duration_seconds": 3,
+    "quality_min_file_size_kb": 500
+  },
+  "comfyui": {
+    "host": "127.0.0.1",
+    "port": 8188,
+    "workflow_file": "wan_api.json",
+    "poll_interval_seconds": 10,
+    "generation_timeout_seconds": 600
+  },
+  "gemini": {
+    "model": "gemini-1.5-flash",
+    "temperature": 0.9,
+    "max_tokens": 1024
+  },
+  "telegram": {
+    "max_file_size_mb": 50,
+    "send_preview_on_start": true
+  },
+  "paths": {
+    "output_dir": "/kaggle/working/shorts_output",
+    "comfyui_output": "/kaggle/working/ComfyUI/output",
+    "queue_file": "data/dance_queue.json",
+    "history_file": "data/trend_history.json",
+    "worker_state_file": "data/worker_state.json"
+  }
+}

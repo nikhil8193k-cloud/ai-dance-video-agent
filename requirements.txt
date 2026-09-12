@@ -1,0 +1,18 @@
+# Core
+requests>=2.31.0
+feedparser>=6.0.10
+
+# Google Gemini
+google-generativeai>=0.7.0
+
+# Utilities
+python-dateutil>=2.8.2
+websocket-client>=1.8.0
+
+# Note: kaggle_secrets is only available inside Kaggle notebooks.
+# No separate install needed for Kaggle environment.
+#
+# FFmpeg must be installed separately:
+#   Kaggle: pre-installed
+#   Ubuntu:  sudo apt-get install -y ffmpeg
+#   macOS:   brew install ffmpeg
