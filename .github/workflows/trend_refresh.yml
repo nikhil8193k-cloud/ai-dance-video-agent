@@ -36,14 +36,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
         run: |
-          python src/trend_agent.py
+          python trend_agent.py
 
       - name: Run Orchestrator (queue health check)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
         run: |
-          python src/orchestrator.py
+          python orchestrator.py
 
       - name: Log completion
         run: |
