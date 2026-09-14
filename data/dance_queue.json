@@ -335,13 +335,109 @@
       "negative_prompt": "multiple dancers, cropped feet, out of frame, extra limbs, bad hand anatomy, fused fingers, distorted face, low quality, blurry, text, logos, watermark, static pose, low resolution, 3d render, illustration",
       "duration": 5,
       "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914121959-1",
+      "created_at": "2026-09-14T12:19:59.686986+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Mirror-Transition Garba Spin",
+        "style": "Garba / Fashion",
+        "hook": "Chaniya Choli color change mid-spin during a fast-paced Chokdi Garba step.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Chokdi Garba Mirror Spin",
+        "dance_style": "Indian fusion Garba",
+        "visual_prompt": "Full-body vertical 9:16 cinematic video of a graceful Indian female dancer executing a fast-paced Chokdi Garba step. She performs a rapid 360-degree spin, wearing a luxurious traditional Chaniya Choli with intricate mirror work. Mid-spin, her outfit seamlessly changes color from vibrant royal blue and gold to striking crimson red and silver, her flared skirt fanning out dynamically. The background is a breathtaking open-air festive courtyard decorated with glowing hanging brass diyas, marigold flowers, and warm evening bokeh lighting. The dynamic camera orbits around her at a low angle, capturing the full-body movement from head to toe. Hyper-realistic skin texture, fluid realistic human motion, atmospheric cinematic warm lighting, high-fashion aesthetic.",
+        "negative_prompt": "text, watermark, logos, distorted eyes, extra limbs, bad anatomy, deformed hands, duplicate legs, blurry, low quality, cropped head, cut off feet, static pose, morphing face",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Chokdi Garba Mirror Spin",
+      "visual_prompt": "Full-body vertical 9:16 cinematic video of a graceful Indian female dancer executing a fast-paced Chokdi Garba step. She performs a rapid 360-degree spin, wearing a luxurious traditional Chaniya Choli with intricate mirror work. Mid-spin, her outfit seamlessly changes color from vibrant royal blue and gold to striking crimson red and silver, her flared skirt fanning out dynamically. The background is a breathtaking open-air festive courtyard decorated with glowing hanging brass diyas, marigold flowers, and warm evening bokeh lighting. The dynamic camera orbits around her at a low angle, capturing the full-body movement from head to toe. Hyper-realistic skin texture, fluid realistic human motion, atmospheric cinematic warm lighting, high-fashion aesthetic.",
+      "negative_prompt": "text, watermark, logos, distorted eyes, extra limbs, bad anatomy, deformed hands, duplicate legs, blurry, low quality, cropped head, cut off feet, static pose, morphing face",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914122007-2",
+      "created_at": "2026-09-14T12:20:07.468646+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Sangeet Squad Face-Off",
+        "style": "Sangeet / Bollywood",
+        "hook": "Uncles vs Cousins dance battle escalation with sudden beat drops and high-energy choreography.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Sangeet Squad Beat Drop",
+        "dance_style": "Indian Fusion",
+        "visual_prompt": "Full-body 9:16 vertical shot of a charismatic young Indian male dancer taking center stage in a high-energy Sangeet dance face-off. He executes dynamic Indian fusion choreography, blending sharp hip-hop pops with energetic Bhangra shoulder bounces during an explosive beat drop. He is dressed in a fashionable emerald-green tailored kurta with silver embroidery and dark trousers that move fluidly with his motion. Set on a lavish Indian wedding stage adorned with glowing fairy lights, hanging floral marigolds, and an energetic, blurred crowd cheering in the background. Cinematic lighting features warm golden ambiance mixed with vivid magenta spotlights. Low-angle dynamic camera tracks his full body from head to toe with realistic human anatomy, crisp focus, and flawless fluid movement. No text, no logos.",
+        "negative_prompt": "text, logos, watermarks, extra limbs, deformed hands, missing fingers, bad anatomy, cropped body, static pose, blurry motion, low quality, duplicate people, distorted face, cartoon, 3d render",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Sangeet Squad Beat Drop",
+      "visual_prompt": "Full-body 9:16 vertical shot of a charismatic young Indian male dancer taking center stage in a high-energy Sangeet dance face-off. He executes dynamic Indian fusion choreography, blending sharp hip-hop pops with energetic Bhangra shoulder bounces during an explosive beat drop. He is dressed in a fashionable emerald-green tailored kurta with silver embroidery and dark trousers that move fluidly with his motion. Set on a lavish Indian wedding stage adorned with glowing fairy lights, hanging floral marigolds, and an energetic, blurred crowd cheering in the background. Cinematic lighting features warm golden ambiance mixed with vivid magenta spotlights. Low-angle dynamic camera tracks his full body from head to toe with realistic human anatomy, crisp focus, and flawless fluid movement. No text, no logos.",
+      "negative_prompt": "text, logos, watermarks, extra limbs, deformed hands, missing fingers, bad anatomy, cropped body, static pose, blurry motion, low quality, duplicate people, distorted face, cartoon, 3d render",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914122014-3",
+      "created_at": "2026-09-14T12:20:14.105139+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Dupatta Whip Cut",
+        "style": "Bollywood / Fashion",
+        "hook": "Dancer whips a heavy embroidered dupatta across the camera lens to trigger an instant location swap.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Royal Dupatta Whip Transition",
+        "dance_style": "Indian Fusion Contemporary",
+        "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
+        "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Royal Dupatta Whip Transition",
+      "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
+      "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914122019-4",
+      "created_at": "2026-09-14T12:20:19.366688+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Indo-Afrobeat Energy Sync",
+        "style": "Bhangra Fusion",
+        "hook": "High-octane fusion combining Nigerian Afrobeats with traditional Punjabi Boliyan and footwork.",
+        "score": 10
+      },
+      "concept": {
+        "title": "AfroBhangra Beat Drop",
+        "dance_style": "Indo-Afrobeat Bhangra Fusion",
+        "visual_prompt": "Full-body vertical 9:16 portrait of a charismatic male dancer performing high-octane Indo-Afrobeat Bhangra fusion dance on a golden-hour urban rooftop. He executes energetic shoulder bounces and rhythmic Punjabi footwork with high energy. He wears stylish modern street fashion featuring a neon-accented jacket mixed with rich vibrant ethnic patterns. Cinematic golden hour lighting with rim light and subtle violet backdrop fills the scene. A dynamic low-angle camera smoothly tracks his fast-paced footwork and expressive movements, keeping his entire body in frame. Photorealistic skin texture, natural anatomy, 8k resolution, cinematic color grading, rich bokeh city lights background.",
+        "negative_prompt": "text, logo, watermark, extra limbs, distorted feet, bad hands, morphing faces, static pose, cropped body, out of frame, blurry, low quality, glitch, duplicate dancers, text overlay",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "AfroBhangra Beat Drop",
+      "visual_prompt": "Full-body vertical 9:16 portrait of a charismatic male dancer performing high-octane Indo-Afrobeat Bhangra fusion dance on a golden-hour urban rooftop. He executes energetic shoulder bounces and rhythmic Punjabi footwork with high energy. He wears stylish modern street fashion featuring a neon-accented jacket mixed with rich vibrant ethnic patterns. Cinematic golden hour lighting with rim light and subtle violet backdrop fills the scene. A dynamic low-angle camera smoothly tracks his fast-paced footwork and expressive movements, keeping his entire body in frame. Photorealistic skin texture, natural anatomy, 8k resolution, cinematic color grading, rich bokeh city lights background.",
+      "negative_prompt": "text, logo, watermark, extra limbs, distorted feet, bad hands, morphing faces, static pose, cropped body, out of frame, blurry, low quality, glitch, duplicate dancers, text overlay",
+      "duration": 5,
+      "aspect_ratio": "9:16"
     }
   ],
   "completed": [],
   "failed": [],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T10:16:13.273068+00:00",
+    "last_updated": "2026-09-14T12:20:19.648547+00:00",
     "total_generated": 0,
     "total_failed": 0
   }
