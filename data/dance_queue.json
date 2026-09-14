@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101612-7",
       "created_at": "2026-09-14T10:16:12.961968+00:00",
-      "status": "processing",
+      "status": "pending",
       "trend": {
         "trend": "Cyberpunk Bharatanatyam",
         "style": "Indian Fusion",
@@ -24,8 +24,8 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:32:29.102017",
-      "retries": 1,
+      "updated_at": "2026-09-14T14:32:31.742432",
+      "retries": 2,
       "error": "Processing failed"
     },
     {
