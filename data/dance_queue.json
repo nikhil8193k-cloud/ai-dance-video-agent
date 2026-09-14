@@ -3,7 +3,7 @@
     {
       "job_id": "20260914122007-2",
       "created_at": "2026-09-14T12:20:07.468646+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Sangeet Squad Face-Off",
         "style": "Sangeet / Bollywood",
@@ -22,7 +22,9 @@
       "visual_prompt": "Full-body 9:16 vertical shot of a charismatic young Indian male dancer taking center stage in a high-energy Sangeet dance face-off. He executes dynamic Indian fusion choreography, blending sharp hip-hop pops with energetic Bhangra shoulder bounces during an explosive beat drop. He is dressed in a fashionable emerald-green tailored kurta with silver embroidery and dark trousers that move fluidly with his motion. Set on a lavish Indian wedding stage adorned with glowing fairy lights, hanging floral marigolds, and an energetic, blurred crowd cheering in the background. Cinematic lighting features warm golden ambiance mixed with vivid magenta spotlights. Low-angle dynamic camera tracks his full body from head to toe with realistic human anatomy, crisp focus, and flawless fluid movement. No text, no logos.",
       "negative_prompt": "text, logos, watermarks, extra limbs, deformed hands, missing fingers, bad anatomy, cropped body, static pose, blurry motion, low quality, duplicate people, distorted face, cartoon, 3d render",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:33:20.195599"
     },
     {
       "job_id": "20260914122014-3",
@@ -570,7 +572,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:33:10.328686",
+    "last_updated": "2026-09-14T14:33:20.195610",
     "total_generated": 24,
     "total_failed": 0
   }
