@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101606-6",
       "created_at": "2026-09-14T10:16:06.227885+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Sangeet Pyro Entrance",
         "style": "Sangeet",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:31:51.242921",
+      "updated_at": "2026-09-14T14:31:58.762973",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -562,7 +562,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:31:48.362296",
+    "last_updated": "2026-09-14T14:31:58.762987",
     "total_generated": 24,
     "total_failed": 0
   }
