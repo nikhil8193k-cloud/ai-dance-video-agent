@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081755-5",
       "created_at": "2026-09-14T08:17:55.037764+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Sangeet Battle: In-Laws Edition",
         "style": "Sangeet / Bollywood",
@@ -22,7 +22,9 @@
       "visual_prompt": "Full-body cinematic vertical 9:16 video of a radiant modern Indian bride performing an energetic Bollywood fusion dance on a lavish Sangeet stage. She is wearing a heavily embellished emerald-green and gold contemporary lehenga with a flowing dupatta that swishes dramatically. She executes a sharp, rhythmic spin and a playful hip drop move with fierce grace, maintaining expressive facial energy. The luxurious stage is decorated with warm fairy lights, hanging marigold floral curtains, and soft stage haze illuminated by golden spotlights and rim lights. Dynamic low-angle camera tracks her full figure smoothly from head to toe as she dances. High fashion look, ultra-realistic human anatomy, fluid motion, vibrant warm lighting, 8k resolution, photorealistic.",
       "negative_prompt": "text, logo, watermark, signature, extra hands, extra feet, bad anatomy, distorted limbs, blurry, low quality, cropped head, cropped feet, out of frame, static pose, split screen, cartoon, 3d render",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:27:39.988165"
     },
     {
       "job_id": "20260914081802-6",
@@ -526,7 +528,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:27:29.551022",
+    "last_updated": "2026-09-14T14:27:39.988178",
     "total_generated": 24,
     "total_failed": 0
   }
