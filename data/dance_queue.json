@@ -167,13 +167,181 @@
       "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
       "duration": 5,
       "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101530-1",
+      "created_at": "2026-09-14T10:15:30.150716+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Bharatanatyam Eye Speed Challenge",
+        "style": "Bharatanatyam",
+        "hook": "Extreme close-up fast eye moves (Drishti Bhedas) perfectly timed to rapid percussion sound.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Bharatanatyam Eye Speed Fusion",
+        "dance_style": "Indian Fusion Bharatanatyam",
+        "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
+        "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Bharatanatyam Eye Speed Fusion",
+      "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
+      "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101536-2",
+      "created_at": "2026-09-14T10:15:36.892585+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Cinematic Mirror Lehenga Walk",
+        "style": "Fashion + Dance",
+        "hook": "Walking into a mirror in casual clothes and stepping out in a heavy lehenga doing slow-mo Bolly moves.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Reflection to Royalty Lehenga Walk",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
+        "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Reflection to Royalty Lehenga Walk",
+      "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
+      "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101543-3",
+      "created_at": "2026-09-14T10:15:43.376739+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Neon LED Dandiya Trails",
+        "style": "Garba",
+        "hook": "Dandiya choreography in complete pitch darkness using glowing light-up sticks.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Neon Light-Trail Garba Fusion",
+        "dance_style": "Indian fusion Garba",
+        "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
+        "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Neon Light-Trail Garba Fusion",
+      "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
+      "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101550-4",
+      "created_at": "2026-09-14T10:15:50.744069+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Taj Mahal Cinematic Drift",
+        "style": "Modern Cinematic Dance",
+        "hook": "360-degree orbit shot of a classical pose spin with the Taj Mahal background and reverb vocals.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Taj Mahal Cinematic Drift",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
+        "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Taj Mahal Cinematic Drift",
+      "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
+      "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101558-5",
+      "created_at": "2026-09-14T10:15:58.059540+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Chaniya Choli Flare Slow-Mo",
+        "style": "Garba",
+        "hook": "Ultra-fast Garba spin captured on a high-speed camera showcasing 360-degree skirt flares.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Royal Chaniya Choli Flare",
+        "dance_style": "Indian Fusion Garba",
+        "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
+        "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Royal Chaniya Choli Flare",
+      "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
+      "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101606-6",
+      "created_at": "2026-09-14T10:16:06.227885+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Sangeet Pyro Entrance",
+        "style": "Sangeet",
+        "hook": "High-energy entry choreography bursting through cold pyro sparks at a wedding reception.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Sangeet Pyro Fusion Entry",
+        "dance_style": "High-Energy Bollywood Indian Fusion",
+        "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
+        "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Sangeet Pyro Fusion Entry",
+      "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
+      "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914101612-7",
+      "created_at": "2026-09-14T10:16:12.961968+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Cyberpunk Bharatanatyam",
+        "style": "Indian Fusion",
+        "hook": "Futuristic neon-lit alleyway setting with sharp classical Nritta movements and cyber aesthetic.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Neon Nritta: Cyberpunk Bharatanatyam",
+        "dance_style": "Cyberpunk Bharatanatyam Indian Fusion",
+        "visual_prompt": "A full-body vertical 9:16 cinematic shot of a single female Indian dancer performing sharp, high-energy Bharatanatyam Nritta movements in a rain- slick cyberpunk alleyway at night. She wears a futuristic fusion outfit featuring metallic silk pleats, glowing LED-accented traditional borders, and high-tech chrome temple jewelry. Her head-to-toe figure is completely visible as she holds a precise Aramandi half-squat pose, executing crisp hand mudras and fast rhythmic footwork. Cinematic magenta and cyan neon lighting reflects off the wet pavement and rising street steam around her. Dynamic low-angle camera smoothly pulls back while keeping her centered. Hyper-realistic skin textures, perfect human anatomy, high-fashion aesthetic, 8k resolution, highly detailed, photorealistic.",
+        "negative_prompt": "multiple dancers, cropped feet, out of frame, extra limbs, bad hand anatomy, fused fingers, distorted face, low quality, blurry, text, logos, watermark, static pose, low resolution, 3d render, illustration",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Neon Nritta: Cyberpunk Bharatanatyam",
+      "visual_prompt": "A full-body vertical 9:16 cinematic shot of a single female Indian dancer performing sharp, high-energy Bharatanatyam Nritta movements in a rain- slick cyberpunk alleyway at night. She wears a futuristic fusion outfit featuring metallic silk pleats, glowing LED-accented traditional borders, and high-tech chrome temple jewelry. Her head-to-toe figure is completely visible as she holds a precise Aramandi half-squat pose, executing crisp hand mudras and fast rhythmic footwork. Cinematic magenta and cyan neon lighting reflects off the wet pavement and rising street steam around her. Dynamic low-angle camera smoothly pulls back while keeping her centered. Hyper-realistic skin textures, perfect human anatomy, high-fashion aesthetic, 8k resolution, highly detailed, photorealistic.",
+      "negative_prompt": "multiple dancers, cropped feet, out of frame, extra limbs, bad hand anatomy, fused fingers, distorted face, low quality, blurry, text, logos, watermark, static pose, low resolution, 3d render, illustration",
+      "duration": 5,
+      "aspect_ratio": "9:16"
     }
   ],
   "completed": [],
   "failed": [],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T08:18:10.515150+00:00",
+    "last_updated": "2026-09-14T10:16:13.273068+00:00",
     "total_generated": 0,
     "total_failed": 0
   }
