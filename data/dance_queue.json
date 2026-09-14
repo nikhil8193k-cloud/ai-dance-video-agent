@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101550-4",
-      "created_at": "2026-09-14T10:15:50.744069+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Taj Mahal Cinematic Drift",
-        "style": "Modern Cinematic Dance",
-        "hook": "360-degree orbit shot of a classical pose spin with the Taj Mahal background and reverb vocals.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Taj Mahal Cinematic Drift",
-        "dance_style": "Indian fusion",
-        "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
-        "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Taj Mahal Cinematic Drift",
-      "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
-      "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:31:07.481317",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101558-5",
       "created_at": "2026-09-14T10:15:58.059540+00:00",
       "status": "pending",
@@ -548,6 +520,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:30:39.344436",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101550-4",
+      "created_at": "2026-09-14T10:15:50.744069+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Taj Mahal Cinematic Drift",
+        "style": "Modern Cinematic Dance",
+        "hook": "360-degree orbit shot of a classical pose spin with the Taj Mahal background and reverb vocals.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Taj Mahal Cinematic Drift",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
+        "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Taj Mahal Cinematic Drift",
+      "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
+      "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:31:10.150692",
       "retries": 3,
       "error": "Processing failed"
     }
