@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          python src/trend_agent.py
           pip install -U google-genai
 
       - name: Run Trend Agent
