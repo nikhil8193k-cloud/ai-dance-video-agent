@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914081747-4",
-      "created_at": "2026-09-14T08:17:47.298162+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Underground Bhangra Cypher",
-        "style": "Bhangra",
-        "hook": "Street hip-hop dancers form a cypher circle, but each person steps in to execute explosive Punjabi folk moves instead.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Underground Bhangra Cypher",
-        "dance_style": "Bhangra Hip-Hop Fusion",
-        "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
-        "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Underground Bhangra Cypher",
-      "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
-      "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:27:29.551008",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914081755-5",
       "created_at": "2026-09-14T08:17:55.037764+00:00",
       "status": "pending",
@@ -520,6 +492,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:27:00.916216",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914081747-4",
+      "created_at": "2026-09-14T08:17:47.298162+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Underground Bhangra Cypher",
+        "style": "Bhangra",
+        "hook": "Street hip-hop dancers form a cypher circle, but each person steps in to execute explosive Punjabi folk moves instead.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Underground Bhangra Cypher",
+        "dance_style": "Bhangra Hip-Hop Fusion",
+        "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
+        "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Underground Bhangra Cypher",
+      "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
+      "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:27:32.130388",
       "retries": 3,
       "error": "Processing failed"
     }
