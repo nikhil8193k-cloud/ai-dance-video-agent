@@ -9,9 +9,11 @@
       "visual_style": "Vibrant festival chaos, handheld dynamic camera, rich gulal powder blasts",
       "prompt": "Energetic group of men dancing Bhangra street fusion during an Indian wedding Baraat procession in a colorful alleyway. Bright orange and pink gulal powder flying in the air, brass band musicians playing in background, lens flares, energetic handheld camera motion, vibrant natural daylight, raw explosive fun energy.",
       "score": 9,
-      "status": "pending",
+      "status": "processing",
       "created_at": "2026-09-14T14:11:34.359914+00:00",
-      "job_id": "20260914141134-4"
+      "job_id": "20260914141134-4",
+      "worker_id": "kaggle-65e86d",
+      "updated_at": "2026-09-14T14:47:36.844610"
     },
     {
       "id": "20260914141134-5",
@@ -600,7 +602,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:47:26.831292",
+    "last_updated": "2026-09-14T14:47:36.844623",
     "total_generated": 24,
     "total_failed": 0
   }
