@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081810-7",
       "created_at": "2026-09-14T08:18:10.263588+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Luxury Sangeet Waiter Prank",
         "style": "Sangeet",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:28:46.057593",
+      "updated_at": "2026-09-14T14:28:53.466837",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -538,7 +538,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:28:43.489997",
+    "last_updated": "2026-09-14T14:28:53.466851",
     "total_generated": 24,
     "total_failed": 0
   }
