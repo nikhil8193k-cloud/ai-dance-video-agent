@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081738-3",
       "created_at": "2026-09-14T08:17:38.465301+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Bride's High-Energy Solo Breakout",
         "style": "Sangeet / Bollywood",
@@ -22,7 +22,9 @@
       "visual_prompt": "Vertical 9:16 cinematic video of a breathtaking Indian bride as the single main dancer centered on a grand Sangeet stage. Full-body framing from head to toe. She drops a sheer golden veil in dramatic slow motion and instantly snaps into an aggressive, sharp, high-energy hip-hop and Bollywood fusion solo with crisp chest pops and powerful arm hits. She is dressed in a heavily embroidered crimson and modern gold lehenga designed for dynamic movement, shimmering under rich stage lights. The environment is an opulent palace ballroom featuring cascading floral arches, crystal chandeliers, and moody background haze. Warm dramatic golden spotlights and volumetric rim lighting highlight her sharp movements. Dynamic camera tracking shot, starting slightly low and fast zooming in as she executes explosive dance steps. Hyper-realistic, mastershot, 8k resolution, perfectly realistic anatomy and motion.",
       "negative_prompt": "extra limbs, mutated hands, distorted fingers, text, watermarks, logos, bad anatomy, blurred face, duplicate dancers, static camera, low quality, unnatural movement",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:26:37.780446"
     },
     {
       "job_id": "20260914081747-4",
@@ -518,7 +520,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:26:27.891207",
+    "last_updated": "2026-09-14T14:26:37.780460",
     "total_generated": 24,
     "total_failed": 0
   }
