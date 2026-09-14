@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101543-3",
       "created_at": "2026-09-14T10:15:43.376739+00:00",
-      "status": "processing",
+      "status": "pending",
       "trend": {
         "trend": "Neon LED Dandiya Trails",
         "style": "Garba",
@@ -24,7 +24,9 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:30:16.013565"
+      "updated_at": "2026-09-14T14:30:18.856909",
+      "retries": 1,
+      "error": "Processing failed"
     },
     {
       "job_id": "20260914101550-4",
