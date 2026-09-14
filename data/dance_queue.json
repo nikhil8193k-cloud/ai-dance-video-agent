@@ -3,7 +3,7 @@
     {
       "job_id": "20260914121959-1",
       "created_at": "2026-09-14T12:19:59.686986+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Mirror-Transition Garba Spin",
         "style": "Garba / Fashion",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:32:52.516640",
+      "updated_at": "2026-09-14T14:33:00.104604",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -570,7 +570,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:32:49.184400",
+    "last_updated": "2026-09-14T14:33:00.104617",
     "total_generated": 24,
     "total_failed": 0
   }
