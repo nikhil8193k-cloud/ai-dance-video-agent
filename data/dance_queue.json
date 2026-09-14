@@ -9,11 +9,13 @@
       "visual_style": "Cinematic royal grandeur, slow-motion beat drops, gold and velvet aesthetic",
       "prompt": "Cinematic 8k video of a stunning Indian bride in a heavily embroidered pastel pink lehenga and groom in a royal cream sherwani performing a synchronized dance battle in a lit Jaipur palace courtyard at night. Cold pyro sparklers erupting in background, dynamic low-angle camera tracking fast footwork, vibrant festive lighting, cinematic motion blur, volumetric light rays.",
       "score": 9,
-      "status": "processing",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00",
       "job_id": "20260914141134-2",
       "worker_id": "kaggle-65e86d",
-      "updated_at": "2026-09-14T14:46:35.920909"
+      "updated_at": "2026-09-14T14:46:38.228896",
+      "retries": 1,
+      "error": "Processing failed"
     },
     {
       "id": "20260914141134-3",
