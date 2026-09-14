@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101536-2",
       "created_at": "2026-09-14T10:15:36.892585+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Cinematic Mirror Lehenga Walk",
         "style": "Fashion + Dance",
@@ -22,7 +22,9 @@
       "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
       "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:29:45.265231"
     },
     {
       "job_id": "20260914101543-3",
@@ -542,7 +544,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:29:35.074814",
+    "last_updated": "2026-09-14T14:29:45.265243",
     "total_generated": 24,
     "total_failed": 0
   }
