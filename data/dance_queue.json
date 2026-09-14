@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101612-7",
       "created_at": "2026-09-14T10:16:12.961968+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Cyberpunk Bharatanatyam",
         "style": "Indian Fusion",
@@ -22,7 +22,9 @@
       "visual_prompt": "A full-body vertical 9:16 cinematic shot of a single female Indian dancer performing sharp, high-energy Bharatanatyam Nritta movements in a rain- slick cyberpunk alleyway at night. She wears a futuristic fusion outfit featuring metallic silk pleats, glowing LED-accented traditional borders, and high-tech chrome temple jewelry. Her head-to-toe figure is completely visible as she holds a precise Aramandi half-squat pose, executing crisp hand mudras and fast rhythmic footwork. Cinematic magenta and cyan neon lighting reflects off the wet pavement and rising street steam around her. Dynamic low-angle camera smoothly pulls back while keeping her centered. Hyper-realistic skin textures, perfect human anatomy, high-fashion aesthetic, 8k resolution, highly detailed, photorealistic.",
       "negative_prompt": "multiple dancers, cropped feet, out of frame, extra limbs, bad hand anatomy, fused fingers, distorted face, low quality, blurry, text, logos, watermark, static pose, low resolution, 3d render, illustration",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:32:19.181276"
     },
     {
       "job_id": "20260914121959-1",
@@ -562,7 +564,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:32:09.102225",
+    "last_updated": "2026-09-14T14:32:19.181288",
     "total_generated": 24,
     "total_failed": 0
   }
