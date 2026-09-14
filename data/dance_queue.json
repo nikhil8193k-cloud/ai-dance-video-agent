@@ -1,5 +1,90 @@
 {
-  "queue": [],
+  "queue": [
+    {
+      "id": "20260914201512-1",
+      "title": "Golden Hour Garba Fusion",
+      "trend": "Garba fusion",
+      "description": "A high-energy Garba modern fusion performance set in a mirrored palace garden at sunset with glowing dandiya sticks.",
+      "dance_style": "Modern Garba & Hip-Hop Fusion",
+      "visual_style": "Cinematic warm sunset light, neon-accented traditional mirror-work attire, slow-motion particles",
+      "prompt": "Cinematic ultra-detailed video of a group performing vibrant Garba fusion dance in a grand Jaipur palace courtyard during golden hour. Mirror-work chaniya cholis catching sunlight, spinning fluidly with glowing LED dandiya sticks, dynamic camera orbit, 8k resolution, photorealistic.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-2",
+      "title": "Royal Kathak Cyberpunk Remix",
+      "trend": "traditional dance modern remix",
+      "description": "A classic Kathak dancer performs fast chakkars while futuristic glowing geometric patterns echo her footwork on a wet reflective courtyard.",
+      "dance_style": "Classical Kathak with contemporary speed",
+      "visual_style": "Neo-royal cyberpunk, high contrast gold and deep indigo, rain-slick reflection",
+      "prompt": "Full shot of a majestic female solo Kathak dancer in a velvet royal red and gold Anarkali suit, executing rapid spinning turns (chakkars). Ghungroo bells on ankles, glowing golden holographic lotus patterns emerging from her footsteps on wet dark marble floor, slow motion cinematic lighting, hyper-detailed.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-3",
+      "title": "Celestial Bridal Entrance Dance",
+      "trend": "bridal dance",
+      "description": "An elegant bride dances fluidly through a foggy, floral-decorated aisle under starry fairy lights.",
+      "dance_style": "Expressive Semi-Classical",
+      "visual_style": "Ethereal dreamy romanticism, soft focus, pastel tones",
+      "prompt": "Romantic medium shot of an Indian bride in a pastel pink embroidered lehenga performing a delicate grace-filled semi-classical dance. She glides along a mirror walkway surrounded by ground fog and suspended floral chandeliers, warm glowing fairy lights, soft dreamy lighting, cinematic masterwork.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-4",
+      "title": "Royal Sunburst Duet",
+      "trend": "couple dance",
+      "description": "A royal couple executes a dramatic spinning Bollywood duet atop a fort overlooking a golden desert city.",
+      "dance_style": "Romantic Bollywood & Contemporary Duet",
+      "visual_style": "Epic royal cinematic scale, wide anamorphic lens, sweeping desert landscape",
+      "prompt": "Epic wide cinematic shot of a royal couple dancing on the terrace of a Jodhpur fort at sunset. The bride's crimson lehenga swirls dramatically in the wind during a lift, sweeping camera movement capturing the ancient city below, rich golden hour sun flare, breathtaking visual depth, 8k.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-5",
+      "title": "Sangeet Royal Groom Squad Flare",
+      "trend": "groom dance",
+      "description": "A charismatic groom and his groomsmen perform a synchronized high-energy Bollywood choreo under sparkling pyrotechnics.",
+      "dance_style": "High-energy Modern Bollywood",
+      "visual_style": "Cinematic luxury wedding, lens flares, confetti, dynamic slow-mo transitions",
+      "prompt": "Dynamic low-angle shot of a groom in an ivory sherwani leading five groomsmen in a synchronized energetic Bollywood dance routine. Luxury palace wedding stage, cold spark fireworks erupting in background, rose petal cannon burst, cinematic lighting, photorealistic 4k movement.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-6",
+      "title": "Neon Rain Bollywood Street Battle",
+      "trend": "high energy Bollywood dance",
+      "description": "Two rival dance crews face off in a neon-lit alleyway doing powerful acrobatic Bollywood steps in torrential rain.",
+      "dance_style": "Urban Bollywood Street Fusion",
+      "visual_style": "Moody neon noir, dramatic water splashes, dynamic tracking shots",
+      "prompt": "High energy dance battle between two stylish Indian dance crews in a rain-soaked urban street lit by vibrant magenta and teal neon signs. Dramatic water splashes off their traditional-streetwear fusion outfits as they drop into synchronized Bollywood hip-hop moves, wide dynamic camera swoop, photorealistic render.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914201512-7",
+      "title": "Navratri Electro-Dandiya Spark",
+      "trend": "Navratri dance",
+      "description": "A mass group of dancers forms concentric circles in an illuminated arena executing rapid synchronization with glowing dandiya sticks.",
+      "dance_style": "Traditional Fast-Paced Dandiya Raas",
+      "visual_style": "Festive explosion of color, overhead drone style to dynamic eye-level zoom",
+      "prompt": "Overhead drone shot transitioning into a fast orbit around dancers in vibrant traditional Gujarati attire playing fast-paced Dandiya Raas. Sparklers and festive marigold garlands framed around the arena, vibrant colors bursting, dramatic night festival lighting, seamless group synchronization, photorealistic AI video.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T20:15:12.486625+00:00"
+    }
+  ],
   "completed": [],
   "failed": [
     {
@@ -611,8 +696,8 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:48:57.588991",
-    "total_generated": 24,
+    "last_updated": "2026-09-14T20:15:12.989342+00:00",
+    "total_generated": 7,
     "total_failed": 0
   }
 }
