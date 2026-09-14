@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914122014-3",
-      "created_at": "2026-09-14T12:20:14.105139+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Dupatta Whip Cut",
-        "style": "Bollywood / Fashion",
-        "hook": "Dancer whips a heavy embroidered dupatta across the camera lens to trigger an instant location swap.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Royal Dupatta Whip Transition",
-        "dance_style": "Indian Fusion Contemporary",
-        "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
-        "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Royal Dupatta Whip Transition",
-      "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
-      "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:34:14.090643",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914122019-4",
       "created_at": "2026-09-14T12:20:19.366688+00:00",
       "status": "pending",
@@ -572,6 +544,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:33:46.585506",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914122014-3",
+      "created_at": "2026-09-14T12:20:14.105139+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Dupatta Whip Cut",
+        "style": "Bollywood / Fashion",
+        "hook": "Dancer whips a heavy embroidered dupatta across the camera lens to trigger an instant location swap.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Royal Dupatta Whip Transition",
+        "dance_style": "Indian Fusion Contemporary",
+        "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
+        "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Royal Dupatta Whip Transition",
+      "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
+      "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:34:16.989295",
       "retries": 3,
       "error": "Processing failed"
     }
