@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101558-5",
       "created_at": "2026-09-14T10:15:58.059540+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Chaniya Choli Flare Slow-Mo",
         "style": "Garba",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:31:20.515664",
+      "updated_at": "2026-09-14T14:31:28.011751",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -558,7 +558,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:31:18.052585",
+    "last_updated": "2026-09-14T14:31:28.011764",
     "total_generated": 24,
     "total_failed": 0
   }
