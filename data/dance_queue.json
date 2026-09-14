@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101550-4",
       "created_at": "2026-09-14T10:15:50.744069+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Taj Mahal Cinematic Drift",
         "style": "Modern Cinematic Dance",
@@ -22,7 +22,9 @@
       "visual_prompt": "A vertical 9:16 cinematic shot of a single elegant female dancer performing a fluid Indian fusion classical spin. Full body is visible from head to toe in the center frame. She is executing a graceful Kathak-inspired pose, spinning effortlessly with perfectly proportioned, realistic human anatomy. She wears a modern, high-fashion silk lehenga in champagne gold and deep crimson with a flowing sheer drape that sweeps around her in motion. The backdrop is the iconic Taj Mahal at golden hour sunset, reflected perfectly on the wet marble floor of the reflective courtyard. The camera performs a smooth, continuous 360-degree cinematic orbit shot around her as she spins. Warm atmospheric volumetric light, realistic skin textures, 8k resolution, highly detailed, photorealistic render.",
       "negative_prompt": "text, watermark, logo, extra limbs, mutated hands, missing fingers, bad anatomy, deformed limbs, blurry faces, multiple dancers, cropped body, cut off feet, frame border, low quality, glitch",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:30:46.629432"
     },
     {
       "job_id": "20260914101558-5",
@@ -550,7 +552,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:30:36.666099",
+    "last_updated": "2026-09-14T14:30:46.629445",
     "total_generated": 24,
     "total_failed": 0
   }
