@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081731-2",
       "created_at": "2026-09-14T08:17:31.187259+00:00",
-      "status": "processing",
+      "status": "pending",
       "trend": {
         "trend": "360 Garba Circle Spin",
         "style": "Garba",
@@ -24,8 +24,8 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:26:18.056653",
-      "retries": 1,
+      "updated_at": "2026-09-14T14:26:20.570153",
+      "retries": 2,
       "error": "Processing failed"
     },
     {
