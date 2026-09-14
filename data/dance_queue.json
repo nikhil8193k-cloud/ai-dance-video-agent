@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101530-1",
-      "created_at": "2026-09-14T10:15:30.150716+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Bharatanatyam Eye Speed Challenge",
-        "style": "Bharatanatyam",
-        "hook": "Extreme close-up fast eye moves (Drishti Bhedas) perfectly timed to rapid percussion sound.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Bharatanatyam Eye Speed Fusion",
-        "dance_style": "Indian Fusion Bharatanatyam",
-        "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
-        "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Bharatanatyam Eye Speed Fusion",
-      "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
-      "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:29:35.074800",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101536-2",
       "created_at": "2026-09-14T10:15:36.892585+00:00",
       "status": "pending",
@@ -536,6 +508,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:29:07.839647",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101530-1",
+      "created_at": "2026-09-14T10:15:30.150716+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Bharatanatyam Eye Speed Challenge",
+        "style": "Bharatanatyam",
+        "hook": "Extreme close-up fast eye moves (Drishti Bhedas) perfectly timed to rapid percussion sound.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Bharatanatyam Eye Speed Fusion",
+        "dance_style": "Indian Fusion Bharatanatyam",
+        "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
+        "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Bharatanatyam Eye Speed Fusion",
+      "visual_prompt": "Full body visible shot of a single stunning Indian female dancer performing high-energy Indian fusion dance in an elegant modern temple courtyard illuminated by golden cinematic backlighting and soft atmospheric haze. She wears a contemporary silk fusion costume with gold embroidery and polished temple jewelry. The dynamic camera executes a fast push-and-pull movement, highlighting her intense, lightning-fast eye glances (Drishti Bhedas) and sharp mudras before smoothly pulling back to reveal her full body completing rapid rhythmic footwork and graceful spins. Photorealistic, 9:16 vertical short-video framing, ultra-detailed costume textures, realistic human anatomy, dramatic cinematic light.",
+      "negative_prompt": "text, watermark, logo, extra limbs, distorted eyes, deformed hands, bad anatomy, multiple dancers, blurry, low resolution, static camera",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:29:37.761575",
       "retries": 3,
       "error": "Processing failed"
     }
