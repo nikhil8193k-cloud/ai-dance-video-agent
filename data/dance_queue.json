@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081723-1",
       "created_at": "2026-09-14T08:17:23.818100+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Sangeet Groom Squad Sunglasses Flip",
         "style": "Bollywood / Sangeet",
@@ -27,7 +27,7 @@
     {
       "job_id": "20260914081731-2",
       "created_at": "2026-09-14T08:17:31.187259+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "360 Garba Circle Spin",
         "style": "Garba",
@@ -51,7 +51,7 @@
     {
       "job_id": "20260914081738-3",
       "created_at": "2026-09-14T08:17:38.465301+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Bride's High-Energy Solo Breakout",
         "style": "Sangeet / Bollywood",
@@ -75,7 +75,7 @@
     {
       "job_id": "20260914081747-4",
       "created_at": "2026-09-14T08:17:47.298162+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Underground Bhangra Cypher",
         "style": "Bhangra",
@@ -99,7 +99,7 @@
     {
       "job_id": "20260914081755-5",
       "created_at": "2026-09-14T08:17:55.037764+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Sangeet Battle: In-Laws Edition",
         "style": "Sangeet / Bollywood",
@@ -123,7 +123,7 @@
     {
       "job_id": "20260914081802-6",
       "created_at": "2026-09-14T08:18:02.788245+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Fortress Wall Mass Bhangra",
         "style": "Bhangra",
@@ -147,7 +147,7 @@
     {
       "job_id": "20260914081810-7",
       "created_at": "2026-09-14T08:18:10.263588+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Luxury Sangeet Waiter Prank",
         "style": "Sangeet",
@@ -171,7 +171,7 @@
     {
       "job_id": "20260914101530-1",
       "created_at": "2026-09-14T10:15:30.150716+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Bharatanatyam Eye Speed Challenge",
         "style": "Bharatanatyam",
@@ -195,7 +195,7 @@
     {
       "job_id": "20260914101536-2",
       "created_at": "2026-09-14T10:15:36.892585+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Cinematic Mirror Lehenga Walk",
         "style": "Fashion + Dance",
@@ -219,7 +219,7 @@
     {
       "job_id": "20260914101543-3",
       "created_at": "2026-09-14T10:15:43.376739+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Neon LED Dandiya Trails",
         "style": "Garba",
@@ -243,7 +243,7 @@
     {
       "job_id": "20260914101550-4",
       "created_at": "2026-09-14T10:15:50.744069+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Taj Mahal Cinematic Drift",
         "style": "Modern Cinematic Dance",
@@ -267,7 +267,7 @@
     {
       "job_id": "20260914101558-5",
       "created_at": "2026-09-14T10:15:58.059540+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Chaniya Choli Flare Slow-Mo",
         "style": "Garba",
@@ -291,7 +291,7 @@
     {
       "job_id": "20260914101606-6",
       "created_at": "2026-09-14T10:16:06.227885+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Sangeet Pyro Entrance",
         "style": "Sangeet",
@@ -315,7 +315,7 @@
     {
       "job_id": "20260914101612-7",
       "created_at": "2026-09-14T10:16:12.961968+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Cyberpunk Bharatanatyam",
         "style": "Indian Fusion",
@@ -339,7 +339,7 @@
     {
       "job_id": "20260914121959-1",
       "created_at": "2026-09-14T12:19:59.686986+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Mirror-Transition Garba Spin",
         "style": "Garba / Fashion",
@@ -363,7 +363,7 @@
     {
       "job_id": "20260914122007-2",
       "created_at": "2026-09-14T12:20:07.468646+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Sangeet Squad Face-Off",
         "style": "Sangeet / Bollywood",
@@ -387,7 +387,7 @@
     {
       "job_id": "20260914122014-3",
       "created_at": "2026-09-14T12:20:14.105139+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Dupatta Whip Cut",
         "style": "Bollywood / Fashion",
@@ -411,7 +411,7 @@
     {
       "job_id": "20260914122019-4",
       "created_at": "2026-09-14T12:20:19.366688+00:00",
-      "status": "queued",
+      "status": "pending",
       "trend": {
         "trend": "Indo-Afrobeat Energy Sync",
         "style": "Bhangra Fusion",
@@ -441,7 +441,7 @@
       "visual_style": "Seamless match-cut transition, glossy fashion reel aesthetic, warm luxury tone",
       "prompt": "A young Indian woman dancing casually in modern clothes turns 360 degrees mid-dance and seamlessly transforms into a dazzling regal bride wearing an intricate crimson and gold silk lehenga with heavy Kundan jewelry. Cinematic camera zoom, glossy lighting, smooth transition effect, high resolution photorealistic render.",
       "score": 10,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     },
     {
@@ -453,7 +453,7 @@
       "visual_style": "Cinematic royal grandeur, slow-motion beat drops, gold and velvet aesthetic",
       "prompt": "Cinematic 8k video of a stunning Indian bride in a heavily embroidered pastel pink lehenga and groom in a royal cream sherwani performing a synchronized dance battle in a lit Jaipur palace courtyard at night. Cold pyro sparklers erupting in background, dynamic low-angle camera tracking fast footwork, vibrant festive lighting, cinematic motion blur, volumetric light rays.",
       "score": 9,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     },
     {
@@ -465,7 +465,7 @@
       "visual_style": "Cyberpunk night glow, vivid neon colors, dynamic fast-paced whip pans",
       "prompt": "Full shot of dancers in futuristic glowing neon chaniya cholis spinning gracefully on a futuristic Mumbai rooftop overcast night sky. Holding light-up neon dandiya sticks that create light trails as they strike. Ultra-detailed 4k, hyper-realistic motion, glowing particle effects, vivid cyan and magenta lighting, cinematic camera rotation around the lead female dancer.",
       "score": 9,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     },
     {
@@ -477,7 +477,7 @@
       "visual_style": "Vibrant festival chaos, handheld dynamic camera, rich gulal powder blasts",
       "prompt": "Energetic group of men dancing Bhangra street fusion during an Indian wedding Baraat procession in a colorful alleyway. Bright orange and pink gulal powder flying in the air, brass band musicians playing in background, lens flares, energetic handheld camera motion, vibrant natural daylight, raw explosive fun energy.",
       "score": 9,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     },
     {
@@ -489,7 +489,7 @@
       "visual_style": "Dramatic contrast shadowplay, warm flame bokeh, ultra-high-speed capture",
       "prompt": "Ultra-detailed shot of an expressive female Indian classical Kathak dancer executing rapid chakkar spins in an ancient stone temple. Golden ghungroos ringing on ankles, swirling red silk Anarkali dress floating in air. Sparks and fire embers drifting around her, dramatic directional moonlight through stone arches, dynamic 120fps slow-motion capture.",
       "score": 8,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     },
     {
@@ -501,7 +501,7 @@
       "visual_style": "Epic ancient temple setting, torchlight glow, stark shadows",
       "prompt": "Two dancers, one female classical Bharatanatyam dancer in traditional silk temple attire and one male hip-hop dancer, performing a synchronized fusion duet in a cavernous ancient Indian stone temple. Surrounded by flaming brass oil lamps, atmospheric mist, intense shadow contrast, dramatic camera dolly in, striking pose alignment.",
       "score": 8,
-      "status": "queued",
+      "status": "pending",
       "created_at": "2026-09-14T14:11:34.359914+00:00"
     }
   ],
@@ -509,7 +509,7 @@
   "failed": [],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:11:34.555002+00:00",
+    "last_updated": "2026-09-14T14:23:43.922900+00:00",
     "total_generated": 24,
     "total_failed": 0
   }
