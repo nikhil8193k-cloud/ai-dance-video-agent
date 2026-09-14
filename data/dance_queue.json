@@ -9,11 +9,11 @@
       "visual_style": "Epic ancient temple setting, torchlight glow, stark shadows",
       "prompt": "Two dancers, one female classical Bharatanatyam dancer in traditional silk temple attire and one male hip-hop dancer, performing a synchronized fusion duet in a cavernous ancient Indian stone temple. Surrounded by flaming brass oil lamps, atmospheric mist, intense shadow contrast, dramatic camera dolly in, striking pose alignment.",
       "score": 8,
-      "status": "pending",
+      "status": "processing",
       "created_at": "2026-09-14T14:11:34.359914+00:00",
       "job_id": "20260914141134-6",
       "worker_id": "kaggle-65e86d",
-      "updated_at": "2026-09-14T14:48:50.398219",
+      "updated_at": "2026-09-14T14:48:57.588979",
       "retries": 2,
       "error": "Processing failed"
     }
@@ -612,7 +612,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:48:47.572336",
+    "last_updated": "2026-09-14T14:48:57.588991",
     "total_generated": 24,
     "total_failed": 0
   }
