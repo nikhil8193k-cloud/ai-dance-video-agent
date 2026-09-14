@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101558-5",
-      "created_at": "2026-09-14T10:15:58.059540+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Chaniya Choli Flare Slow-Mo",
-        "style": "Garba",
-        "hook": "Ultra-fast Garba spin captured on a high-speed camera showcasing 360-degree skirt flares.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Royal Chaniya Choli Flare",
-        "dance_style": "Indian Fusion Garba",
-        "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
-        "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Royal Chaniya Choli Flare",
-      "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
-      "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:31:38.080418",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101606-6",
       "created_at": "2026-09-14T10:16:06.227885+00:00",
       "status": "pending",
@@ -552,6 +524,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:31:10.150692",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101558-5",
+      "created_at": "2026-09-14T10:15:58.059540+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Chaniya Choli Flare Slow-Mo",
+        "style": "Garba",
+        "hook": "Ultra-fast Garba spin captured on a high-speed camera showcasing 360-degree skirt flares.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Royal Chaniya Choli Flare",
+        "dance_style": "Indian Fusion Garba",
+        "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
+        "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Royal Chaniya Choli Flare",
+      "visual_prompt": "Full body 9:16 vertical shot of a stunning Indian female dancer executing an ultra-fast Garba spin captured in cinematic 1000fps slow-motion. She wears a lavish traditional Chaniya Choli featuring vibrant magenta silk and deep navy blue, decorated with thousands of intricate real mirror-work reflecting light in all directions. As she spins gracefully, her skirt billows out in a flawless 360-degree wide flare. Set in a majestic royal palace courtyard at night, surrounded by warm glowing diyas, hanging marigold garlands, and soft atmospheric bokeh lighting. Photorealistic human anatomy, fluid cloth physics, dynamic orbiting low-angle camera tracking her motion, dramatic warm rim lighting highlighting her elegant silhouette.",
+      "negative_prompt": "extra limbs, mutated hands, distorted fingers, blurry face, static skirt, unnatural spin, morphing fabric, low quality, duplicate legs, bad anatomy, text, watermark, logo, frame borders, 3D render look",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:31:40.861872",
       "retries": 3,
       "error": "Processing failed"
     }
