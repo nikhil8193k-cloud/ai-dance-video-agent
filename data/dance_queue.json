@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101543-3",
-      "created_at": "2026-09-14T10:15:43.376739+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Neon LED Dandiya Trails",
-        "style": "Garba",
-        "hook": "Dandiya choreography in complete pitch darkness using glowing light-up sticks.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Neon Light-Trail Garba Fusion",
-        "dance_style": "Indian fusion Garba",
-        "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
-        "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Neon Light-Trail Garba Fusion",
-      "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
-      "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:30:36.666065",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101550-4",
       "created_at": "2026-09-14T10:15:50.744069+00:00",
       "status": "pending",
@@ -544,6 +516,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:30:08.391814",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101543-3",
+      "created_at": "2026-09-14T10:15:43.376739+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Neon LED Dandiya Trails",
+        "style": "Garba",
+        "hook": "Dandiya choreography in complete pitch darkness using glowing light-up sticks.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Neon Light-Trail Garba Fusion",
+        "dance_style": "Indian fusion Garba",
+        "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
+        "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Neon Light-Trail Garba Fusion",
+      "visual_prompt": "Full body shot of one stunning female Indian fusion dancer performing an energetic Garba spin in pitch darkness. She holds two vibrant glowing neon LED dandiya sticks in electric cyan and magenta that leave long, smooth, mesmerizing light trails through the air with every movement. She wears a fashionable modern fusion lehenga choli in dark velvet with subtle reflective metallic trim. The setting features a glossy, black reflective floor catching the vivid neon glow, with light atmospheric volumetric haze. Realistic human anatomy, photorealistic skin textures, and focused expression. Dynamic low-angle camera slowly sweeping in a smooth arc around the dancer. Perfect 9:16 vertical composition for a high-energy short video, cinematic lighting, 8k resolution.",
+      "negative_prompt": "extra limbs, deformed fingers, bad anatomy, blurry face, multiple dancers, bright background, daytime, text, watermarks, logos, distorted body, cropped feet, cropped head",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:30:39.344436",
       "retries": 3,
       "error": "Processing failed"
     }
