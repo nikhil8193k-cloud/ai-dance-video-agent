@@ -3,7 +3,7 @@
     {
       "job_id": "20260914101536-2",
       "created_at": "2026-09-14T10:15:36.892585+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Cinematic Mirror Lehenga Walk",
         "style": "Fashion + Dance",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:29:48.131318",
+      "updated_at": "2026-09-14T14:29:55.719869",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -546,7 +546,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:29:45.265243",
+    "last_updated": "2026-09-14T14:29:55.719882",
     "total_generated": 24,
     "total_failed": 0
   }
