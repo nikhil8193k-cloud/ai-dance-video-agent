@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081802-6",
       "created_at": "2026-09-14T08:18:02.788245+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Fortress Wall Mass Bhangra",
         "style": "Bhangra",
@@ -22,7 +22,9 @@
       "visual_prompt": "Vertical 9:16 cinematic video capturing a full-body shot of a charismatic main male dancer executing an energetic high-knee Bhangra jump with wide arm extensions on the stone ramparts of an ancient red sandstone heritage fort. Golden hour sunrise lights the scene with warm dramatic sunlight, mist rising from the valley below. In the background, a synchronized ensemble of dancers mirrors the rhythm. The lead dancer wears a stylish fusion outfit: a vibrant royal-blue silk kurta, an embroidered gold jacket, and fitted trousers. The camera uses a dynamic low-angle tracking tilt that accentuates the high jump, keeping the main dancer framed perfectly in full view. Ultra-realistic human anatomy, sharp focus, rich cinematic color grading, smooth movement, no blur.",
       "negative_prompt": "text, watermark, logos, signature, cropped head, cut off feet, distorted body proportions, extra limbs, extra fingers, unrealistic motion blur, low quality, glitch, cartoon, 3d render, static camera, dull lighting",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:28:12.013321"
     },
     {
       "job_id": "20260914081810-7",
@@ -530,7 +532,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:28:01.662282",
+    "last_updated": "2026-09-14T14:28:12.013335",
     "total_generated": 24,
     "total_failed": 0
   }
