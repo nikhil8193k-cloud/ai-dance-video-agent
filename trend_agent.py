@@ -1,10 +1,10 @@
 import os
 import json
 import base64
-import time
-import requests
+import re
 from datetime import datetime, timezone
 
+import requests
 from google import genai
 
 
@@ -22,53 +22,67 @@ HISTORY_PATH = "data/trend_history.json"
 
 GEMINI_MODEL = "gemini-3.6-flash"
 
-MAX_TRENDS = 10
+# IMPORTANT:
+# One Gemini request per workflow run.
 MAX_CONCEPTS = 7
 
-GITHUB_API = "https://api.github.com"
+# Number of raw trend candidates to ask Gemini to evaluate.
+MAX_TRENDS = 30
 
 
 # ============================================================
 # LOGGING
 # ============================================================
 
+PREFIX = "[TrendAgent]"
+
+
 def log(message):
-    print(f"[TrendAgent] {message}", flush=True)
+    print(f"{PREFIX} {message}", flush=True)
 
 
 # ============================================================
 # TIME
 # ============================================================
 
-def now_iso():
+def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
 # ============================================================
-# GEMINI
+# FILE HELPERS
 # ============================================================
 
-def create_gemini_client():
-    if not GEMINI_API_KEY:
-        raise RuntimeError("GEMINI_API_KEY is missing")
+def load_json_file(path, default):
+    try:
+        if not os.path.exists(path):
+            return default
 
-    return genai.Client(api_key=GEMINI_API_KEY)
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    except Exception as e:
+        log(f"Could not read {path}: {e}")
+        return default
 
 
-def gemini_generate(client, prompt):
-    response = client.models.generate_content(
-        model=GEMINI_MODEL,
-        contents=prompt,
-    )
+def save_json_file(path, data):
+    directory = os.path.dirname(path)
 
-    if not response or not response.text:
-        raise RuntimeError("Gemini returned an empty response")
+    if directory:
+        os.makedirs(directory, exist_ok=True)
 
-    return response.text.strip()
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(
+            data,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
 
 
 # ============================================================
-# GITHUB HEADERS
+# GITHUB API
 # ============================================================
 
 def github_headers():
@@ -79,11 +93,19 @@ def github_headers():
     }
 
 
-# ============================================================
-# GITHUB GET FILE
-# ============================================================
-
 def github_get(path):
+    """
+    Read a JSON file from the GitHub repository.
+
+    Returns:
+        {
+            "data": parsed_json,
+            "sha": github_file_sha
+        }
+
+    or None if the file does not exist / cannot be read.
+    """
+
     if not GITHUB_TOKEN:
         log("ERROR: GITHUB_TOKEN is missing")
         return None
@@ -92,46 +114,47 @@ def github_get(path):
         log("ERROR: GITHUB_REPO is missing")
         return None
 
-    url = f"{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}"
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
 
     try:
         r = requests.get(
             url,
             headers=github_headers(),
-            timeout=30,
+            timeout=30
         )
-    except Exception as e:
-        log(f"GitHub GET exception: {e}")
-        return None
 
-    if r.status_code == 200:
-        try:
+        if r.status_code == 200:
             body = r.json()
-            content = base64.b64decode(body["content"]).decode("utf-8")
+
+            content = base64.b64decode(
+                body["content"]
+            ).decode("utf-8")
 
             return {
                 "data": json.loads(content),
-                "sha": body["sha"],
+                "sha": body["sha"]
             }
 
-        except Exception as e:
-            log(f"GitHub GET parse error: {e}")
+        if r.status_code == 404:
+            log(f"GitHub file not found: {path}")
             return None
 
-    if r.status_code == 404:
+        log(f"GitHub GET failed: {path}")
+        log(f"HTTP {r.status_code}")
+        log(f"Response: {r.text}")
+
         return None
 
-    log(f"GitHub GET FAILED: HTTP {r.status_code}")
-    log(f"GitHub response: {r.text}")
+    except Exception as e:
+        log(f"GitHub GET exception for {path}: {e}")
+        return None
 
-    return None
-
-
-# ============================================================
-# GITHUB PUT FILE
-# ============================================================
 
 def github_put(path, data, sha=None, message="update"):
+    """
+    Create or update a JSON file in GitHub.
+    """
+
     if not GITHUB_TOKEN:
         log("ERROR: GITHUB_TOKEN is missing")
         return False
@@ -140,19 +163,19 @@ def github_put(path, data, sha=None, message="update"):
         log("ERROR: GITHUB_REPO is missing")
         return False
 
-    url = f"{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}"
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
 
     content = base64.b64encode(
         json.dumps(
             data,
             indent=2,
-            ensure_ascii=False,
+            ensure_ascii=False
         ).encode("utf-8")
     ).decode("ascii")
 
     payload = {
         "message": message,
-        "content": content,
+        "content": content
     }
 
     if sha:
@@ -163,163 +186,93 @@ def github_put(path, data, sha=None, message="update"):
             url,
             headers=github_headers(),
             json=payload,
-            timeout=30,
+            timeout=30
         )
-    except Exception as e:
-        log(f"GitHub PUT exception: {e}")
+
+        if r.status_code in (200, 201):
+            log(f"GitHub update successful: {path}")
+            return True
+
+        log(f"GitHub update FAILED: {path}")
+        log(f"GitHub status: {r.status_code}")
+        log(f"GitHub response: {r.text}")
+
         return False
 
-    if r.status_code in (200, 201):
-        log(f"GitHub update successful: {path}")
-        return True
-
-    log(f"GitHub update FAILED: HTTP {r.status_code}")
-    log(f"GitHub response: {r.text}")
-
-    return False
+    except Exception as e:
+        log(f"GitHub PUT exception for {path}: {e}")
+        return False
 
 
 # ============================================================
-# LOAD SETTINGS
+# SETTINGS
 # ============================================================
 
 def load_settings():
-    defaults = {
-        "dance_style": "Indian fusion",
-        "video_duration": 5,
-        "aspect_ratio": "9:16",
-        "quality_threshold": 5,
+    default_settings = {
+        "max_jobs_per_run": MAX_CONCEPTS,
+        "min_trend_score": 5
     }
 
-    try:
-        result = github_get(SETTINGS_PATH)
+    settings = load_json_file(
+        SETTINGS_PATH,
+        default_settings
+    )
 
-        if result and isinstance(result.get("data"), dict):
-            settings = defaults.copy()
-            settings.update(result["data"])
-            return settings
+    if not isinstance(settings, dict):
+        return default_settings
 
-    except Exception as e:
-        log(f"Settings load error: {e}")
-
-    return defaults
+    return settings
 
 
 # ============================================================
 # TREND DISCOVERY
 # ============================================================
 
-def discover_trends(client):
-    prompt = """
-You are a viral short-video trend researcher.
+def get_candidate_trends():
+    """
+    Collect trend candidates.
 
-Generate 30 current-style dance/video trend concepts suitable for
-Instagram Reels, YouTube Shorts and TikTok.
+    This intentionally does NOT call Gemini.
 
-Focus on:
-- Indian dance
-- Bollywood
-- Garba
-- Kathak
-- Bharatanatyam
-- Bhangra
-- Sangeet
-- Indian fusion
-- Modern cinematic dance
-- Fashion + dance
-- High-energy choreography
-- Visually interesting locations
-- Viral short-form video concepts
+    Gemini is called only once later, after we have the
+    candidate list.
+    """
 
-Return ONLY a JSON array.
+    candidates = [
+        "Indian wedding dance",
+        "bride vs groom dance battle",
+        "sangeet dance",
+        "Garba fusion",
+        "modern Garba",
+        "Kathak fusion",
+        "Bollywood dance",
+        "classical Indian dance fusion",
+        "Indian festival dance",
+        "Navratri dance",
+        "Dandiya dance",
+        "viral Indian dance",
+        "couple dance",
+        "group dance",
+        "wedding crew battle",
+        "traditional dance modern remix",
+        "Indian fashion dance",
+        "cinematic Indian dance",
+        "royal Indian dance",
+        "street Indian dance",
+        "high energy Bollywood dance",
+        "female solo Indian dance",
+        "male solo Indian dance",
+        "dance transition",
+        "dance challenge",
+        "festival performance",
+        "bridal dance",
+        "groom dance",
+        "sangeet performance",
+        "Indian music dance"
+    ]
 
-Each item must have:
-
-{
-  "trend": "short trend name",
-  "style": "dance style",
-  "hook": "viral hook",
-  "score": 1-10
-}
-
-Do not include markdown.
-"""
-
-    text = gemini_generate(client, prompt)
-
-    try:
-        data = json.loads(text)
-    except Exception:
-        # Try extracting JSON if Gemini added extra text
-        start = text.find("[")
-        end = text.rfind("]")
-
-        if start == -1 or end == -1:
-            raise RuntimeError("Could not parse Gemini trend JSON")
-
-        data = json.loads(text[start:end + 1])
-
-    if not isinstance(data, list):
-        raise RuntimeError("Gemini trends response was not a list")
-
-    return data
-
-
-# ============================================================
-# CONCEPT GENERATION
-# ============================================================
-
-def generate_concept(client, trend, settings):
-    prompt = f"""
-Create one production-ready AI dance video concept.
-
-TREND:
-{json.dumps(trend, ensure_ascii=False)}
-
-SETTINGS:
-{json.dumps(settings, ensure_ascii=False)}
-
-Return ONLY valid JSON.
-
-Required format:
-
-{{
-  "title": "short catchy title",
-  "dance_style": "specific dance style",
-  "visual_prompt": "detailed cinematic AI video prompt",
-  "negative_prompt": "things to avoid",
-  "duration": 5,
-  "aspect_ratio": "9:16"
-}}
-
-The visual prompt must describe:
-- one main dancer
-- full body visible
-- clear dance movement
-- cinematic lighting
-- attractive environment
-- fashionable clothing
-- realistic human anatomy
-- dynamic camera
-- vertical short-video composition
-- no text
-- no logos
-"""
-
-    text = gemini_generate(client, prompt)
-
-    try:
-        concept = json.loads(text)
-    except Exception:
-        start = text.find("{")
-        end = text.rfind("}")
-
-        if start == -1 or end == -1:
-            raise RuntimeError("Could not parse Gemini concept JSON")
-
-        concept = json.loads(text[start:end + 1])
-
-    return concept
+    return candidates[:MAX_TRENDS]
 
 
 # ============================================================
@@ -327,139 +280,532 @@ The visual prompt must describe:
 # ============================================================
 
 def load_history():
-    result = github_get(HISTORY_PATH)
+    history = load_json_file(
+        HISTORY_PATH,
+        []
+    )
 
-    if result and isinstance(result.get("data"), dict):
-        return result["data"], result["sha"]
+    if isinstance(history, dict):
+        history = history.get("history", [])
 
-    history = {
-        "used_trends": [],
-        "updated_at": now_iso(),
-    }
+    if not isinstance(history, list):
+        history = []
 
-    return history, None
+    return history
+
+
+def history_names(history):
+    names = set()
+
+    for item in history:
+        if isinstance(item, str):
+            names.add(item.lower().strip())
+
+        elif isinstance(item, dict):
+            for key in (
+                "title",
+                "concept",
+                "name",
+                "trend"
+            ):
+                value = item.get(key)
+
+                if value:
+                    names.add(
+                        str(value).lower().strip()
+                    )
+
+    return names
+
+
+# ============================================================
+# GEMINI
+# ============================================================
+
+def create_gemini_client():
+    if not GEMINI_API_KEY:
+        raise RuntimeError(
+            "GEMINI_API_KEY is missing"
+        )
+
+    return genai.Client(
+        api_key=GEMINI_API_KEY
+    )
+
+
+def extract_json(text):
+    """
+    Safely extract JSON from Gemini output.
+
+    Handles:
+      {...}
+      ```json
+      {...}
+      ```
+    """
+
+    if not text:
+        raise ValueError("Gemini returned empty response")
+
+    text = text.strip()
+
+    # Remove markdown fences.
+    text = re.sub(
+        r"^```(?:json)?\s*",
+        "",
+        text,
+        flags=re.IGNORECASE
+    )
+
+    text = re.sub(
+        r"\s*```$",
+        "",
+        text
+    )
+
+    # Try direct JSON first.
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    # Find first JSON object/array.
+    object_start = text.find("{")
+    array_start = text.find("[")
+
+    starts = [
+        x for x in (
+            object_start,
+            array_start
+        )
+        if x >= 0
+    ]
+
+    if not starts:
+        raise ValueError(
+            "No JSON object or array found in Gemini response"
+        )
+
+    start = min(starts)
+
+    object_end = text.rfind("}")
+    array_end = text.rfind("]")
+
+    end = max(
+        object_end,
+        array_end
+    )
+
+    if end < start:
+        raise ValueError(
+            "Could not locate complete JSON in Gemini response"
+        )
+
+    return json.loads(
+        text[start:end + 1]
+    )
+
+
+def generate_concepts_with_gemini(
+    trends,
+    history_names_set
+):
+    """
+    ONE Gemini request.
+
+    Gemini receives all candidate trends and returns up to
+    MAX_CONCEPTS finished dance-video concepts.
+    """
+
+    client = create_gemini_client()
+
+    available_trends = [
+        trend
+        for trend in trends
+        if trend.lower().strip()
+        not in history_names_set
+    ]
+
+    if not available_trends:
+        log("No unused trends available")
+        return []
+
+    prompt = f"""
+You are the creative director for an automated Indian dance
+short-video generation system.
+
+Generate up to {MAX_CONCEPTS} ORIGINAL short-form dance video
+concepts from the candidate trends below.
+
+IMPORTANT:
+- Return ONLY valid JSON.
+- Do not use markdown.
+- Do not explain your answer.
+- Do not create duplicate concepts.
+- Make concepts visually strong for AI video generation.
+- Prefer Indian dance, Bollywood, Garba, Kathak, Sangeet,
+  wedding and festival-inspired ideas.
+- Each concept must be feasible as a short AI-generated video.
+- Avoid copyrighted characters and direct imitation of named
+  living creators.
+- Keep each concept concise.
+
+Candidate trends:
+{json.dumps(available_trends, ensure_ascii=False)}
+
+Return exactly this JSON structure:
+
+{{
+  "concepts": [
+    {{
+      "title": "Short memorable title",
+      "trend": "Source trend",
+      "description": "One sentence describing the video",
+      "dance_style": "Dance style",
+      "visual_style": "Visual/cinematic style",
+      "prompt": "Detailed AI video generation prompt",
+      "score": 8
+    }}
+  ]
+}}
+
+The score must be an integer from 1 to 10 representing
+viral potential and suitability for a short AI dance video.
+
+Only return concepts with score >= 5.
+"""
+
+    log(
+        f"Sending ONE Gemini request for "
+        f"{len(available_trends)} trends..."
+    )
+
+    try:
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt
+        )
+
+        raw = response.text
+
+        parsed = extract_json(raw)
+
+        if isinstance(parsed, dict):
+            concepts = parsed.get(
+                "concepts",
+                []
+            )
+        elif isinstance(parsed, list):
+            concepts = parsed
+        else:
+            concepts = []
+
+        if not isinstance(concepts, list):
+            concepts = []
+
+        cleaned = []
+
+        for item in concepts:
+            if not isinstance(item, dict):
+                continue
+
+            title = str(
+                item.get("title", "")
+            ).strip()
+
+            trend = str(
+                item.get("trend", "")
+            ).strip()
+
+            description = str(
+                item.get("description", "")
+            ).strip()
+
+            dance_style = str(
+                item.get("dance_style", "")
+            ).strip()
+
+            visual_style = str(
+                item.get("visual_style", "")
+            ).strip()
+
+            prompt_text = str(
+                item.get("prompt", "")
+            ).strip()
+
+            try:
+                score = int(
+                    item.get("score", 0)
+                )
+            except (TypeError, ValueError):
+                score = 0
+
+            if not title:
+                continue
+
+            if not prompt_text:
+                continue
+
+            if score < 5:
+                continue
+
+            cleaned.append({
+                "title": title,
+                "trend": trend,
+                "description": description,
+                "dance_style": dance_style,
+                "visual_style": visual_style,
+                "prompt": prompt_text,
+                "score": score
+            })
+
+        # Highest scoring concepts first.
+        cleaned.sort(
+            key=lambda x: x.get("score", 0),
+            reverse=True
+        )
+
+        # Remove duplicate titles.
+        unique = []
+        seen_titles = set()
+
+        for concept in cleaned:
+            key = concept["title"].lower().strip()
+
+            if key in seen_titles:
+                continue
+
+            seen_titles.add(key)
+            unique.append(concept)
+
+        unique = unique[:MAX_CONCEPTS]
+
+        log(
+            f"Gemini returned {len(unique)} usable concepts"
+        )
+
+        for concept in unique:
+            log(
+                f"✅ Concept: "
+                f"{concept['title']} "
+                f"(score {concept['score']})"
+            )
+
+        return unique
+
+    except Exception as e:
+        error_text = str(e)
+
+        if (
+            "429" in error_text
+            or "RESOURCE_EXHAUSTED" in error_text
+        ):
+            log(
+                "Gemini quota exceeded. "
+                "No additional Gemini calls will be made."
+            )
+
+        else:
+            log(
+                f"Gemini concept generation failed: {e}"
+            )
+
+        return []
 
 
 # ============================================================
 # QUEUE
 # ============================================================
 
-def load_queue():
-    result = github_get(QUEUE_PATH)
+def build_jobs(concepts):
+    jobs = []
 
-    if result:
-        data = result.get("data")
+    timestamp = utc_now()
 
-        if isinstance(data, dict):
-            return data, result.get("sha")
+    for index, concept in enumerate(concepts):
+        job_id = (
+            datetime.now(timezone.utc)
+            .strftime("%Y%m%d%H%M%S")
+            + f"-{index + 1}"
+        )
 
-    queue = {
-        "queue": [],
-        "completed": [],
-        "failed": [],
-        "metadata": {
-            "created_at": now_iso(),
-            "last_updated": now_iso(),
-            "total_generated": 0,
-            "total_failed": 0,
-        },
-    }
+        job = {
+            "id": job_id,
+            "title": concept.get("title", ""),
+            "trend": concept.get("trend", ""),
+            "description": concept.get(
+                "description",
+                ""
+            ),
+            "dance_style": concept.get(
+                "dance_style",
+                ""
+            ),
+            "visual_style": concept.get(
+                "visual_style",
+                ""
+            ),
+            "prompt": concept.get(
+                "prompt",
+                ""
+            ),
+            "score": concept.get(
+                "score",
+                0
+            ),
+            "status": "queued",
+            "created_at": timestamp
+        }
 
-    return queue, None
+        jobs.append(job)
 
+    return jobs
 
-# ============================================================
-# ADD JOBS TO QUEUE
-# ============================================================
 
 def add_jobs_to_queue(jobs):
     if not jobs:
-        log("No jobs to add")
+        log("No jobs to add to queue")
         return False
 
-    # Retry in case another process changed the queue SHA
-    for attempt in range(3):
-        queue, sha = load_queue()
+    current = github_get(
+        QUEUE_PATH
+    )
 
-        if not isinstance(queue, dict):
-            queue = {
-                "queue": [],
-                "completed": [],
-                "failed": [],
-                "metadata": {},
-            }
-
-        if "queue" not in queue:
-            queue["queue"] = []
-
-        if "completed" not in queue:
-            queue["completed"] = []
-
-        if "failed" not in queue:
-            queue["failed"] = []
-
-        if "metadata" not in queue:
-            queue["metadata"] = {}
-
-        for job in jobs:
-            queue["queue"].append(job)
-
-        queue["metadata"]["last_updated"] = now_iso()
-
-        if "created_at" not in queue["metadata"]:
-            queue["metadata"]["created_at"] = now_iso()
-
-        success = github_put(
-            QUEUE_PATH,
-            queue,
-            sha=sha,
-            message=f"Add {len(jobs)} AI dance jobs",
+    if current is None:
+        log(
+            f"ERROR: Could not read "
+            f"{QUEUE_PATH} from GitHub"
         )
+        return False
 
-        if success:
-            log(f"SUCCESS: {len(jobs)} jobs added to GitHub queue")
-            return True
+    queue_data = current["data"]
+    sha = current["sha"]
 
-        log(f"Queue write attempt {attempt + 1}/3 failed")
+    if not isinstance(queue_data, dict):
+        queue_data = {}
 
-        if attempt < 2:
-            time.sleep(3)
+    queue_data.setdefault(
+        "queue",
+        []
+    )
 
-    log("ERROR: Could not update dance queue after 3 attempts")
+    queue_data.setdefault(
+        "completed",
+        []
+    )
+
+    queue_data.setdefault(
+        "failed",
+        []
+    )
+
+    queue_data.setdefault(
+        "metadata",
+        {}
+    )
+
+    if not isinstance(
+        queue_data["queue"],
+        list
+    ):
+        queue_data["queue"] = []
+
+    existing_ids = {
+        str(item.get("id"))
+        for item in queue_data["queue"]
+        if isinstance(item, dict)
+    }
+
+    added = 0
+
+    for job in jobs:
+        if job["id"] in existing_ids:
+            continue
+
+        queue_data["queue"].append(job)
+        existing_ids.add(job["id"])
+        added += 1
+
+    queue_data["metadata"][
+        "last_updated"
+    ] = utc_now()
+
+    queue_data["metadata"][
+        "total_generated"
+    ] = (
+        len(queue_data.get("completed", []))
+        + len(queue_data.get("queue", []))
+    )
+
+    success = github_put(
+        QUEUE_PATH,
+        queue_data,
+        sha=sha,
+        message=f"Add {added} dance video job(s)"
+    )
+
+    if success:
+        log(
+            f"✅ Added {added} job(s) to GitHub queue"
+        )
+        return True
+
+    log("ERROR: failed to update queue")
     return False
 
 
 # ============================================================
-# UPDATE HISTORY
+# HISTORY UPDATE
 # ============================================================
 
-def update_history(trends):
-    if not trends:
+def update_history(concepts):
+    if not concepts:
         return True
 
-    history, sha = load_history()
+    current = github_get(
+        HISTORY_PATH
+    )
 
-    if not isinstance(history, dict):
-        history = {}
+    if current is None:
+        # File does not exist yet.
+        history = []
+        sha = None
+    else:
+        history = current["data"]
+        sha = current["sha"]
 
-    if "used_trends" not in history:
-        history["used_trends"] = []
+        if isinstance(history, dict):
+            history = history.get(
+                "history",
+                []
+            )
 
-    for trend in trends:
-        trend_name = trend.get("trend")
+        if not isinstance(history, list):
+            history = []
 
-        if trend_name and trend_name not in history["used_trends"]:
-            history["used_trends"].append(trend_name)
+    timestamp = utc_now()
 
-    # Keep history manageable
-    history["used_trends"] = history["used_trends"][-500:]
-    history["updated_at"] = now_iso()
+    for concept in concepts:
+        history.append({
+            "title": concept.get(
+                "title",
+                ""
+            ),
+            "trend": concept.get(
+                "trend",
+                ""
+            ),
+            "created_at": timestamp
+        })
+
+    # Keep history reasonably sized.
+    history = history[-500:]
 
     return github_put(
         HISTORY_PATH,
         history,
         sha=sha,
-        message="Update dance trend history",
+        message="Update trend history"
     )
 
 
@@ -471,7 +817,7 @@ def run():
     log("Starting trend discovery...")
 
     # --------------------------------------------------------
-    # Validate environment
+    # Validate configuration
     # --------------------------------------------------------
 
     if not GEMINI_API_KEY:
@@ -486,205 +832,103 @@ def run():
         log("ERROR: GITHUB_REPO is missing")
         return False
 
-    log(f"GitHub repository: {GITHUB_REPO}")
-    log(f"Gemini model: {GEMINI_MODEL}")
-
-    # --------------------------------------------------------
-    # Gemini client
-    # --------------------------------------------------------
-
-    try:
-        client = create_gemini_client()
-    except Exception as e:
-        log(f"ERROR creating Gemini client: {e}")
-        return False
-
-    # --------------------------------------------------------
-    # Settings
-    # --------------------------------------------------------
-
-    settings = load_settings()
-
-    # --------------------------------------------------------
-    # Discover trends
-    # --------------------------------------------------------
-
-    try:
-        trends = discover_trends(client)
-    except Exception as e:
-        log(f"ERROR discovering trends: {e}")
-        return False
-
-    log(f"Found {len(trends)} raw trends")
-
     # --------------------------------------------------------
     # Load history
     # --------------------------------------------------------
 
-    history, _ = load_history()
+    history = load_history()
+    history_names_set = history_names(history)
 
-    used_trends = set(
-        history.get("used_trends", [])
-        if isinstance(history, dict)
-        else []
+    log(
+        f"Loaded {len(history_names_set)} historical trends"
     )
 
-    unused = []
-
-    for trend in trends:
-        name = str(trend.get("trend", "")).strip()
-
-        if name and name not in used_trends:
-            unused.append(trend)
-
-    log(f"{len(unused)} unused trends after history filter")
-
     # --------------------------------------------------------
-    # Score/filter trends
+    # Discover candidate trends
     # --------------------------------------------------------
 
-    scored = []
+    trends = get_candidate_trends()
 
-    for trend in unused:
-        try:
-            score = int(trend.get("score", 0))
-        except Exception:
-            score = 0
-
-        if score >= 5:
-            scored.append(trend)
-
-    scored.sort(
-        key=lambda x: int(x.get("score", 0)),
-        reverse=True,
+    log(
+        f"Found {len(trends)} raw trends"
     )
 
-    selected = scored[:MAX_TRENDS]
+    unused = [
+        trend
+        for trend in trends
+        if trend.lower().strip()
+        not in history_names_set
+    ]
 
-    log(f"{len(selected)} trends scored ≥5")
+    log(
+        f"{len(unused)} unused trends after history filter"
+    )
 
-    if not selected:
-        log("No suitable trends found")
+    if not unused:
+        log("No new trends available")
         return True
 
     # --------------------------------------------------------
-    # Generate concepts
+    # ONE Gemini request
     # --------------------------------------------------------
 
-    jobs = []
+    concepts = generate_concepts_with_gemini(
+        unused,
+        history_names_set
+    )
 
-    for index, trend in enumerate(selected):
-        if len(jobs) >= MAX_CONCEPTS:
-            break
-
-        try:
-            concept = generate_concept(
-                client,
-                trend,
-                settings,
-            )
-
-            job_id = (
-                datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
-                + f"-{index + 1}"
-            )
-
-            job = {
-                "job_id": job_id,
-                "created_at": now_iso(),
-                "status": "queued",
-
-                "trend": trend,
-
-                "concept": concept,
-
-                "title": concept.get(
-                    "title",
-                    trend.get("trend", "AI Dance"),
-                ),
-
-                "visual_prompt": concept.get(
-                    "visual_prompt",
-                    "",
-                ),
-
-                "negative_prompt": concept.get(
-                    "negative_prompt",
-                    "",
-                ),
-
-                "duration": concept.get(
-                    "duration",
-                    settings.get("video_duration", 5),
-                ),
-
-                "aspect_ratio": concept.get(
-                    "aspect_ratio",
-                    "9:16",
-                ),
-            }
-
-            jobs.append(job)
-
-            log(
-                f"Concept {len(jobs)}/{MAX_CONCEPTS}: "
-                f"{job['title']}"
-            )
-
-        except Exception as e:
-            log(
-                f"Concept generation failed for "
-                f"{trend.get('trend', 'unknown')}: {e}"
-            )
-
-            # Stop if Gemini starts rate limiting us
-            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
-                log("Gemini rate limit reached — stopping concept generation")
-                break
-
-    log(f"Generated {len(jobs)} production jobs")
-
-    # --------------------------------------------------------
-    # Nothing generated
-    # --------------------------------------------------------
-
-    if not jobs:
-        log("No jobs generated")
+    if not concepts:
+        log(
+            "No concepts generated."
+        )
         return False
 
     # --------------------------------------------------------
-    # Write queue FIRST
+    # Build jobs
     # --------------------------------------------------------
 
-    queue_success = add_jobs_to_queue(jobs)
+    jobs = build_jobs(
+        concepts
+    )
+
+    log(
+        f"Built {len(jobs)} dance video job(s)"
+    )
+
+    # --------------------------------------------------------
+    # Update queue FIRST
+    # --------------------------------------------------------
+
+    queue_success = add_jobs_to_queue(
+        jobs
+    )
 
     if not queue_success:
-        log("ERROR: Jobs were generated but NOT written to GitHub")
+        log(
+            "ERROR: queue update failed"
+        )
         return False
 
     # --------------------------------------------------------
-    # Update history AFTER successful queue write
+    # Update history
     # --------------------------------------------------------
 
     history_success = update_history(
-        [job["trend"] for job in jobs]
+        concepts
     )
 
     if not history_success:
         log(
-            "WARNING: Queue was updated successfully, "
-            "but trend history update failed"
+            "WARNING: history update failed"
         )
 
     # --------------------------------------------------------
-    # Finished
+    # Done
     # --------------------------------------------------------
 
     log(
-        f"SUCCESS: {len(jobs)} new jobs queued on GitHub"
+        f"Done. {len(jobs)} new jobs queued"
     )
-
-    log("Trend refresh complete")
 
     return True
 
@@ -694,19 +938,10 @@ def run():
 # ============================================================
 
 if __name__ == "__main__":
-    try:
-        success = run()
+    success = run()
 
-        if success:
-            log("Done")
-        else:
-            log("FAILED")
-            raise SystemExit(1)
-
-    except KeyboardInterrupt:
-        log("Interrupted")
+    if not success:
+        log("FAILED")
         raise SystemExit(1)
 
-    except Exception as e:
-        log(f"FATAL ERROR: {e}")
-        raise SystemExit(1)
+    log("SUCCESS")
