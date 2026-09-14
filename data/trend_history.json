@@ -1,23 +1,32 @@
-{
-  "used_trends": [
-    "Sangeet Groom Squad Sunglasses Flip",
-    "360 Garba Circle Spin",
-    "Bride's High-Energy Solo Breakout",
-    "Underground Bhangra Cypher",
-    "Sangeet Battle: In-Laws Edition",
-    "Fortress Wall Mass Bhangra",
-    "Luxury Sangeet Waiter Prank",
-    "Bharatanatyam Eye Speed Challenge",
-    "Cinematic Mirror Lehenga Walk",
-    "Neon LED Dandiya Trails",
-    "Taj Mahal Cinematic Drift",
-    "Chaniya Choli Flare Slow-Mo",
-    "Sangeet Pyro Entrance",
-    "Cyberpunk Bharatanatyam",
-    "Mirror-Transition Garba Spin",
-    "Sangeet Squad Face-Off",
-    "Dupatta Whip Cut",
-    "Indo-Afrobeat Energy Sync"
-  ],
-  "updated_at": "2026-09-14T12:20:20.672889+00:00"
-}
+[
+  {
+    "title": "Silk & Gold Bridal Flip",
+    "trend": "dance transition",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  },
+  {
+    "title": "Royal Sangeet Face-Off",
+    "trend": "bride vs groom dance battle",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  },
+  {
+    "title": "Cyberpunk Neon Garba",
+    "trend": "modern Garba",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  },
+  {
+    "title": "Street Spice Baraat Rush",
+    "trend": "street Indian dance",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  },
+  {
+    "title": "Ghungroo Flame Kathak",
+    "trend": "Kathak fusion",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  },
+  {
+    "title": "Ancient Temple Fire Fusion",
+    "trend": "classical Indian dance fusion",
+    "created_at": "2026-09-14T14:11:35.722520+00:00"
+  }
+]
