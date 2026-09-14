@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914081731-2",
-      "created_at": "2026-09-14T08:17:31.187259+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "360 Garba Circle Spin",
-        "style": "Garba",
-        "hook": "Centered 360-degree rotating camera shot inside a glowing nighttime Navratri circle with hundreds of dancers spinning in unison.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Radiant 360 Garba Fusion",
-        "dance_style": "Indian fusion",
-        "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
-        "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Radiant 360 Garba Fusion",
-      "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
-      "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:26:27.891194",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914081738-3",
       "created_at": "2026-09-14T08:17:38.465301+00:00",
       "status": "pending",
@@ -512,6 +484,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:25:59.677775",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914081731-2",
+      "created_at": "2026-09-14T08:17:31.187259+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "360 Garba Circle Spin",
+        "style": "Garba",
+        "hook": "Centered 360-degree rotating camera shot inside a glowing nighttime Navratri circle with hundreds of dancers spinning in unison.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Radiant 360 Garba Fusion",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
+        "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Radiant 360 Garba Fusion",
+      "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
+      "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:26:30.314130",
       "retries": 3,
       "error": "Processing failed"
     }
