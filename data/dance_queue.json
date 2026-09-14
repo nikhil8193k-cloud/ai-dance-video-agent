@@ -3,7 +3,7 @@
     {
       "job_id": "20260914122019-4",
       "created_at": "2026-09-14T12:20:19.366688+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Indo-Afrobeat Energy Sync",
         "style": "Bhangra Fusion",
@@ -22,7 +22,9 @@
       "visual_prompt": "Full-body vertical 9:16 portrait of a charismatic male dancer performing high-octane Indo-Afrobeat Bhangra fusion dance on a golden-hour urban rooftop. He executes energetic shoulder bounces and rhythmic Punjabi footwork with high energy. He wears stylish modern street fashion featuring a neon-accented jacket mixed with rich vibrant ethnic patterns. Cinematic golden hour lighting with rim light and subtle violet backdrop fills the scene. A dynamic low-angle camera smoothly tracks his fast-paced footwork and expressive movements, keeping his entire body in frame. Photorealistic skin texture, natural anatomy, 8k resolution, cinematic color grading, rich bokeh city lights background.",
       "negative_prompt": "text, logo, watermark, extra limbs, distorted feet, bad hands, morphing faces, static pose, cropped body, out of frame, blurry, low quality, glitch, duplicate dancers, text overlay",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:34:24.291706"
     },
     {
       "id": "20260914141134-1",
@@ -578,7 +580,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:34:14.090656",
+    "last_updated": "2026-09-14T14:34:24.291718",
     "total_generated": 24,
     "total_failed": 0
   }
