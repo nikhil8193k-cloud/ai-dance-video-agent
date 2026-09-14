@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101536-2",
-      "created_at": "2026-09-14T10:15:36.892585+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Cinematic Mirror Lehenga Walk",
-        "style": "Fashion + Dance",
-        "hook": "Walking into a mirror in casual clothes and stepping out in a heavy lehenga doing slow-mo Bolly moves.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Reflection to Royalty Lehenga Walk",
-        "dance_style": "Indian fusion",
-        "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
-        "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Reflection to Royalty Lehenga Walk",
-      "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
-      "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:30:05.501177",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101543-3",
       "created_at": "2026-09-14T10:15:43.376739+00:00",
       "status": "pending",
@@ -540,6 +512,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:29:37.761575",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101536-2",
+      "created_at": "2026-09-14T10:15:36.892585+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Cinematic Mirror Lehenga Walk",
+        "style": "Fashion + Dance",
+        "hook": "Walking into a mirror in casual clothes and stepping out in a heavy lehenga doing slow-mo Bolly moves.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Reflection to Royalty Lehenga Walk",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
+        "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Reflection to Royalty Lehenga Walk",
+      "visual_prompt": "Full body vertical 9:16 framing of a single gorgeous South Asian female dancer. In a luxurious marble palace corridor, she walks towards a giant antique golden mirror in sleek modern casual streetwear. As she passes through the shimmering mirror surface, she seamlessly transforms into a dazzling heavy crimson lehenga encrusted with real mirror-work and gold embroidery. She steps out doing a graceful slow-motion Indian fusion dance turn, swirling her voluminous lehenga skirt, executing precise expressive hand mudras and a mesmerizing gaze. Dramatic cinematic backlighting with golden light beams filtering through arches, soft dust motes, photorealistic skin texture, flawless realistic human anatomy. Dynamic tracking camera smoothly pulls back as she advances toward the lens.",
+      "negative_prompt": "text, logo, watermark, signature, multiple dancers, extra limbs, distorted face, fused fingers, bad anatomy, blur, glitch, low resolution, cropped head, cropped feet, horizontal frame, static shot",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:30:08.391814",
       "retries": 3,
       "error": "Processing failed"
     }
