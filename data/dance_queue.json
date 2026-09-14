@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914101606-6",
-      "created_at": "2026-09-14T10:16:06.227885+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Sangeet Pyro Entrance",
-        "style": "Sangeet",
-        "hook": "High-energy entry choreography bursting through cold pyro sparks at a wedding reception.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Sangeet Pyro Fusion Entry",
-        "dance_style": "High-Energy Bollywood Indian Fusion",
-        "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
-        "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Sangeet Pyro Fusion Entry",
-      "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
-      "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:32:09.102207",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101612-7",
       "created_at": "2026-09-14T10:16:12.961968+00:00",
       "status": "pending",
@@ -556,6 +528,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:31:40.861872",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914101606-6",
+      "created_at": "2026-09-14T10:16:06.227885+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Sangeet Pyro Entrance",
+        "style": "Sangeet",
+        "hook": "High-energy entry choreography bursting through cold pyro sparks at a wedding reception.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Sangeet Pyro Fusion Entry",
+        "dance_style": "High-Energy Bollywood Indian Fusion",
+        "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
+        "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Sangeet Pyro Fusion Entry",
+      "visual_prompt": "Vertical 9:16 full-body cinematic shot of one stunning female dancer bursting forward with a high-energy Indian fusion dance routine. She is centrally framed from head to toe, executing sharp wrist gestures, rhythmic footwork, and a dramatic spin. She wears a glamorous, modern royal-blue lehenga encrusted with fine gold embroidery that sways dynamically with her movements. She dances down a grand Sangeet entrance aisle flanked by cold pyro sparkular fountains bursting brilliant silver sparks high into the air. The backdrop features an opulent wedding reception hall decorated with warm fairy lights and lush floral arrangements. Dynamic camera smoothly tracks her forward movement in 8k photorealistic quality, featuring cinematic volumetric lighting, shallow depth of field, natural human proportions, perfectly detailed face and hands, no text, no logos.",
+      "negative_prompt": "text, logos, watermarks, multiple dancers, extra limbs, deformed hands, distorted fingers, cropped feet, cropped head, blurry, low resolution, static pose, unnatural body anatomy, bad eye alignment",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:32:11.784216",
       "retries": 3,
       "error": "Processing failed"
     }
