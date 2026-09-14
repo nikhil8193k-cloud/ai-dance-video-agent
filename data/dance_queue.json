@@ -3,7 +3,7 @@
     {
       "job_id": "20260914121959-1",
       "created_at": "2026-09-14T12:19:59.686986+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Mirror-Transition Garba Spin",
         "style": "Garba / Fashion",
@@ -22,7 +22,9 @@
       "visual_prompt": "Full-body vertical 9:16 cinematic video of a graceful Indian female dancer executing a fast-paced Chokdi Garba step. She performs a rapid 360-degree spin, wearing a luxurious traditional Chaniya Choli with intricate mirror work. Mid-spin, her outfit seamlessly changes color from vibrant royal blue and gold to striking crimson red and silver, her flared skirt fanning out dynamically. The background is a breathtaking open-air festive courtyard decorated with glowing hanging brass diyas, marigold flowers, and warm evening bokeh lighting. The dynamic camera orbits around her at a low angle, capturing the full-body movement from head to toe. Hyper-realistic skin texture, fluid realistic human motion, atmospheric cinematic warm lighting, high-fashion aesthetic.",
       "negative_prompt": "text, watermark, logos, distorted eyes, extra limbs, bad anatomy, deformed hands, duplicate legs, blurry, low quality, cropped head, cut off feet, static pose, morphing face",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:32:49.184386"
     },
     {
       "job_id": "20260914122007-2",
@@ -566,7 +568,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:32:39.225213",
+    "last_updated": "2026-09-14T14:32:49.184400",
     "total_generated": 24,
     "total_failed": 0
   }
