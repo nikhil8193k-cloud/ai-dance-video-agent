@@ -1,10 +1,179 @@
 {
-  "queue": [],
+  "queue": [
+    {
+      "job_id": "20260914081723-1",
+      "created_at": "2026-09-14T08:17:23.818100+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Sangeet Groom Squad Sunglasses Flip",
+        "style": "Bollywood / Sangeet",
+        "hook": "Groom squad in matching sherwanis execute a synchronized slow-motion sunglasses flip directly into an energetic hook step.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Groom Squad Sangeet Sunglasses Flip",
+        "dance_style": "Indian Fusion",
+        "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
+        "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Groom Squad Sangeet Sunglasses Flip",
+      "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
+      "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081731-2",
+      "created_at": "2026-09-14T08:17:31.187259+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "360 Garba Circle Spin",
+        "style": "Garba",
+        "hook": "Centered 360-degree rotating camera shot inside a glowing nighttime Navratri circle with hundreds of dancers spinning in unison.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Radiant 360 Garba Fusion",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
+        "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Radiant 360 Garba Fusion",
+      "visual_prompt": "Vertical 9:16 cinematic video. A stunning Indian female main dancer performs an energetic Indian fusion Garba twirl, centered in full-body view. She wears a high-fashion modern emerald green and gold embroidered chaniya choli with a wide billowing skirt that flares gracefully with her movement. The camera executes a perfectly centered, smooth 360-degree rotating orbit around her. The scene is set in an opulent nighttime Navratri festival arena where hundreds of background dancers swirl in glowing concentric circles. Bokeh fairy lights, hanging lanterns, and rich golden volumetric lighting illuminate the night sky, creating dramatic rim light on the dancer. Photorealistic human anatomy, fluid dance choreography, 8k resolution, cinematic color grading, no text, no logos.",
+      "negative_prompt": "text, watermark, logo, signature, extra limbs, missing limbs, deformed hands, mutated fingers, distorted face, bad anatomy, unnatural body posture, low quality, blurry, flicker, static background, extra heads, cropped feet, out of frame body",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081738-3",
+      "created_at": "2026-09-14T08:17:38.465301+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Bride's High-Energy Solo Breakout",
+        "style": "Sangeet / Bollywood",
+        "hook": "Bride begins a slow traditional entry, drops the veil, and abruptly breaks into an aggressive, sharp hip-hop/Bollywood solo.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Desi Bride Sangeet Breakout",
+        "dance_style": "Indian Fusion Hip-Hop",
+        "visual_prompt": "Vertical 9:16 cinematic video of a breathtaking Indian bride as the single main dancer centered on a grand Sangeet stage. Full-body framing from head to toe. She drops a sheer golden veil in dramatic slow motion and instantly snaps into an aggressive, sharp, high-energy hip-hop and Bollywood fusion solo with crisp chest pops and powerful arm hits. She is dressed in a heavily embroidered crimson and modern gold lehenga designed for dynamic movement, shimmering under rich stage lights. The environment is an opulent palace ballroom featuring cascading floral arches, crystal chandeliers, and moody background haze. Warm dramatic golden spotlights and volumetric rim lighting highlight her sharp movements. Dynamic camera tracking shot, starting slightly low and fast zooming in as she executes explosive dance steps. Hyper-realistic, mastershot, 8k resolution, perfectly realistic anatomy and motion.",
+        "negative_prompt": "extra limbs, mutated hands, distorted fingers, text, watermarks, logos, bad anatomy, blurred face, duplicate dancers, static camera, low quality, unnatural movement",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Desi Bride Sangeet Breakout",
+      "visual_prompt": "Vertical 9:16 cinematic video of a breathtaking Indian bride as the single main dancer centered on a grand Sangeet stage. Full-body framing from head to toe. She drops a sheer golden veil in dramatic slow motion and instantly snaps into an aggressive, sharp, high-energy hip-hop and Bollywood fusion solo with crisp chest pops and powerful arm hits. She is dressed in a heavily embroidered crimson and modern gold lehenga designed for dynamic movement, shimmering under rich stage lights. The environment is an opulent palace ballroom featuring cascading floral arches, crystal chandeliers, and moody background haze. Warm dramatic golden spotlights and volumetric rim lighting highlight her sharp movements. Dynamic camera tracking shot, starting slightly low and fast zooming in as she executes explosive dance steps. Hyper-realistic, mastershot, 8k resolution, perfectly realistic anatomy and motion.",
+      "negative_prompt": "extra limbs, mutated hands, distorted fingers, text, watermarks, logos, bad anatomy, blurred face, duplicate dancers, static camera, low quality, unnatural movement",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081747-4",
+      "created_at": "2026-09-14T08:17:47.298162+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Underground Bhangra Cypher",
+        "style": "Bhangra",
+        "hook": "Street hip-hop dancers form a cypher circle, but each person steps in to execute explosive Punjabi folk moves instead.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Underground Bhangra Cypher",
+        "dance_style": "Bhangra Hip-Hop Fusion",
+        "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
+        "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Underground Bhangra Cypher",
+      "visual_prompt": "Vertical 9:16 full-body cinematic video of a charismatic male dancer stepping into the center of an underground urban cypher circle. He executes explosive high-energy Bhangra fusion moves, including propulsive leg hops, rhythmic shoulder bounces, and wide expressive arm extensions combined with crisp hip-hop isolations. He wears high-fashion streetwear featuring oversized black cargo pants, white sneakers, and a modern tailored jacket with subtle Punjabi folk embroidery. The setting is an atmospheric neon-lit underground concrete venue with a blurred circle of stylish dancers cheering in the background. Dynamic low-angle camera smoothly tracks his fluid movement with a subtle upward push-in. Cinematic lighting with deep teal ambient shadows, warm golden spotlighting on the dancer, realistic human anatomy, 8k photorealistic resolution, perfectly framed portrait composition.",
+      "negative_prompt": "text, logos, watermarks, brand symbols, extra limbs, deformed fingers, distorted face, static pose, blur, cropped feet, out of frame, bad anatomy, unnatural motion, low quality",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081755-5",
+      "created_at": "2026-09-14T08:17:55.037764+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Sangeet Battle: In-Laws Edition",
+        "style": "Sangeet / Bollywood",
+        "hook": "Mother-in-law and bride do a dramatic, humorously fierce dance-off switch transition mid-stage.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Sangeet Showdown: The Fusion Twist",
+        "dance_style": "Bollywood Indian Fusion",
+        "visual_prompt": "Full-body cinematic vertical 9:16 video of a radiant modern Indian bride performing an energetic Bollywood fusion dance on a lavish Sangeet stage. She is wearing a heavily embellished emerald-green and gold contemporary lehenga with a flowing dupatta that swishes dramatically. She executes a sharp, rhythmic spin and a playful hip drop move with fierce grace, maintaining expressive facial energy. The luxurious stage is decorated with warm fairy lights, hanging marigold floral curtains, and soft stage haze illuminated by golden spotlights and rim lights. Dynamic low-angle camera tracks her full figure smoothly from head to toe as she dances. High fashion look, ultra-realistic human anatomy, fluid motion, vibrant warm lighting, 8k resolution, photorealistic.",
+        "negative_prompt": "text, logo, watermark, signature, extra hands, extra feet, bad anatomy, distorted limbs, blurry, low quality, cropped head, cropped feet, out of frame, static pose, split screen, cartoon, 3d render",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Sangeet Showdown: The Fusion Twist",
+      "visual_prompt": "Full-body cinematic vertical 9:16 video of a radiant modern Indian bride performing an energetic Bollywood fusion dance on a lavish Sangeet stage. She is wearing a heavily embellished emerald-green and gold contemporary lehenga with a flowing dupatta that swishes dramatically. She executes a sharp, rhythmic spin and a playful hip drop move with fierce grace, maintaining expressive facial energy. The luxurious stage is decorated with warm fairy lights, hanging marigold floral curtains, and soft stage haze illuminated by golden spotlights and rim lights. Dynamic low-angle camera tracks her full figure smoothly from head to toe as she dances. High fashion look, ultra-realistic human anatomy, fluid motion, vibrant warm lighting, 8k resolution, photorealistic.",
+      "negative_prompt": "text, logo, watermark, signature, extra hands, extra feet, bad anatomy, distorted limbs, blurry, low quality, cropped head, cropped feet, out of frame, static pose, split screen, cartoon, 3d render",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081802-6",
+      "created_at": "2026-09-14T08:18:02.788245+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Fortress Wall Mass Bhangra",
+        "style": "Bhangra",
+        "hook": "50 dancers synchronized on top of an ancient heritage fort wall doing high-knee Bhangra jumps at sunrise.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Sunrise Fort Bhangra Fusion",
+        "dance_style": "Bhangra Indian Fusion",
+        "visual_prompt": "Vertical 9:16 cinematic video capturing a full-body shot of a charismatic main male dancer executing an energetic high-knee Bhangra jump with wide arm extensions on the stone ramparts of an ancient red sandstone heritage fort. Golden hour sunrise lights the scene with warm dramatic sunlight, mist rising from the valley below. In the background, a synchronized ensemble of dancers mirrors the rhythm. The lead dancer wears a stylish fusion outfit: a vibrant royal-blue silk kurta, an embroidered gold jacket, and fitted trousers. The camera uses a dynamic low-angle tracking tilt that accentuates the high jump, keeping the main dancer framed perfectly in full view. Ultra-realistic human anatomy, sharp focus, rich cinematic color grading, smooth movement, no blur.",
+        "negative_prompt": "text, watermark, logos, signature, cropped head, cut off feet, distorted body proportions, extra limbs, extra fingers, unrealistic motion blur, low quality, glitch, cartoon, 3d render, static camera, dull lighting",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Sunrise Fort Bhangra Fusion",
+      "visual_prompt": "Vertical 9:16 cinematic video capturing a full-body shot of a charismatic main male dancer executing an energetic high-knee Bhangra jump with wide arm extensions on the stone ramparts of an ancient red sandstone heritage fort. Golden hour sunrise lights the scene with warm dramatic sunlight, mist rising from the valley below. In the background, a synchronized ensemble of dancers mirrors the rhythm. The lead dancer wears a stylish fusion outfit: a vibrant royal-blue silk kurta, an embroidered gold jacket, and fitted trousers. The camera uses a dynamic low-angle tracking tilt that accentuates the high jump, keeping the main dancer framed perfectly in full view. Ultra-realistic human anatomy, sharp focus, rich cinematic color grading, smooth movement, no blur.",
+      "negative_prompt": "text, watermark, logos, signature, cropped head, cut off feet, distorted body proportions, extra limbs, extra fingers, unrealistic motion blur, low quality, glitch, cartoon, 3d render, static camera, dull lighting",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    },
+    {
+      "job_id": "20260914081810-7",
+      "created_at": "2026-09-14T08:18:10.263588+00:00",
+      "status": "queued",
+      "trend": {
+        "trend": "Luxury Sangeet Waiter Prank",
+        "style": "Sangeet",
+        "hook": "Event staff drop their serving trays at a high-end wedding reception and instantly break into a crisp viral routine.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Luxury Sangeet Waiter Surprise",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
+        "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Luxury Sangeet Waiter Surprise",
+      "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
+      "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
+      "duration": 5,
+      "aspect_ratio": "9:16"
+    }
+  ],
   "completed": [],
   "failed": [],
   "metadata": {
     "created_at": "",
-    "last_updated": "",
+    "last_updated": "2026-09-14T08:18:10.515150+00:00",
     "total_generated": 0,
     "total_failed": 0
   }
