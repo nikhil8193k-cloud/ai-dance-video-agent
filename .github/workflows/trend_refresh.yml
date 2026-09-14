@@ -2,7 +2,6 @@ name: Trend Refresh
 
 on:
   schedule:
-    # Every 2 hours
     - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
@@ -26,10 +25,10 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-     - name: Install dependencies
-  run: |
-    pip install -r requirements.txt
-    pip install -U google-genai
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -U google-genai
 
       - name: Run Trend Agent
         env:
@@ -39,7 +38,7 @@ jobs:
         run: |
           python trend_agent.py
 
-      - name: Run Orchestrator (queue health check)
+      - name: Run Orchestrator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
@@ -48,4 +47,4 @@ jobs:
 
       - name: Log completion
         run: |
-          echo "✅ Trend refresh completed at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "Trend refresh completed at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
