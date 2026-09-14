@@ -116,6 +116,66 @@ def github_put(
     sha: str | None = None,
     message: str = "update",
 ) -> bool:
+    """Write a file to GitHub via API with detailed error reporting."""
+
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+    content = base64.b64encode(
+        json.dumps(
+            data,
+            indent=2,
+            ensure_ascii=False,
+        ).encode()
+    ).decode()
+
+    payload: dict = {
+        "message": message,
+        "content": content,
+    }
+
+    if sha:
+        payload["sha"] = sha
+
+    try:
+        r = requests.put(
+            url,
+            headers=headers,
+            json=payload,
+            timeout=30,
+        )
+
+        if r.status_code in (200, 201):
+            print(
+                f"[TrendAgent] GitHub update successful: {path}"
+            )
+            return True
+
+        print(
+            f"[TrendAgent] GitHub update FAILED: "
+            f"HTTP {r.status_code}"
+        )
+        print(
+            f"[TrendAgent] GitHub response: {r.text}"
+        )
+
+        return False
+
+    except Exception as e:
+        print(
+            f"[TrendAgent] GitHub request error: {e}"
+        )
+        return False
+    path: str,
+    data: dict,
+    sha: str | None = None,
+    message: str = "update",
+) -> bool:
     """Write a file to GitHub via API."""
 
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
