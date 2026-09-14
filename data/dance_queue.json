@@ -3,7 +3,7 @@
     {
       "job_id": "20260914122014-3",
       "created_at": "2026-09-14T12:20:14.105139+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Dupatta Whip Cut",
         "style": "Bollywood / Fashion",
@@ -22,7 +22,9 @@
       "visual_prompt": "Vertical 9:16 cinematic video. Full body shot of a single female dancer performing high-energy Indian fusion dance. She wears a luxury crimson red and gold embroidered lehenga with a heavy silk dupatta. She spins dynamically and whips the heavy embroidered dupatta directly across the camera lens, temporarily covering the frame with shimmering metallic fabric. As the dupatta clears the lens, an instant location swap occurs from a golden-hour traditional Rajasthani palace courtyard to a modern city rooftop at twilight with glowing purple and blue neon lights. She seamlessly continues her fluid dance movement with perfect posture and realistic human anatomy. Cinematic dramatic lighting, rich color palette, ultra-realistic fabric motion blur, high fashion aesthetic, 8k resolution.",
       "negative_prompt": "text, logos, watermarks, extra limbs, bad anatomy, distorted face, multiple dancers, low quality, static camera, cropped limbs, blur, cartoon style",
       "duration": 5,
-      "aspect_ratio": "9:16"
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:33:53.970402"
     },
     {
       "job_id": "20260914122019-4",
@@ -574,7 +576,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:33:44.045999",
+    "last_updated": "2026-09-14T14:33:53.970416",
     "total_generated": 24,
     "total_failed": 0
   }
