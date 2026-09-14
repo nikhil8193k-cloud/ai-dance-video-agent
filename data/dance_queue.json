@@ -3,7 +3,7 @@
     {
       "job_id": "20260914081738-3",
       "created_at": "2026-09-14T08:17:38.465301+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Bride's High-Energy Solo Breakout",
         "style": "Sangeet / Bollywood",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:26:40.782019",
+      "updated_at": "2026-09-14T14:26:48.281186",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -522,7 +522,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:26:37.780460",
+    "last_updated": "2026-09-14T14:26:48.281200",
     "total_generated": 24,
     "total_failed": 0
   }
