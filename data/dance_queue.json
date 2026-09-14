@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914081723-1",
-      "created_at": "2026-09-14T08:17:23.818100+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Sangeet Groom Squad Sunglasses Flip",
-        "style": "Bollywood / Sangeet",
-        "hook": "Groom squad in matching sherwanis execute a synchronized slow-motion sunglasses flip directly into an energetic hook step.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Groom Squad Sangeet Sunglasses Flip",
-        "dance_style": "Indian Fusion",
-        "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
-        "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Groom Squad Sangeet Sunglasses Flip",
-      "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
-      "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:25:57.175146",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914081731-2",
       "created_at": "2026-09-14T08:17:31.187259+00:00",
       "status": "pending",
@@ -510,7 +482,36 @@
     }
   ],
   "completed": [],
-  "failed": [],
+  "failed": [
+    {
+      "job_id": "20260914081723-1",
+      "created_at": "2026-09-14T08:17:23.818100+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Sangeet Groom Squad Sunglasses Flip",
+        "style": "Bollywood / Sangeet",
+        "hook": "Groom squad in matching sherwanis execute a synchronized slow-motion sunglasses flip directly into an energetic hook step.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Groom Squad Sangeet Sunglasses Flip",
+        "dance_style": "Indian Fusion",
+        "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
+        "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Groom Squad Sangeet Sunglasses Flip",
+      "visual_prompt": "A cinematic full-body vertical 9:16 video of one handsome male Indian main dancer on a grand Sangeet wedding stage. He wears an opulent emerald green and gold embroidered designer sherwani with fitted trousers and sleek black sunglasses. The scene begins in dramatic slow motion as he effortlessly flicks his sunglasses down over his eyes, immediately transitioning into a high-energy Indian fusion dance hook step with sharp shoulder bounces and fluid, energetic footwork. The background features a lavishly decorated palace courtyard with warm fairy lights, hanging floral installations, golden arches, and soft ambient stage smoke. Golden volumetric spotlighting accentuates his crisp movement and rich fabric textures. Dynamic camera motion starts with a close push-in and smoothly pulls back to reveal his entire body in motion. Flawless human anatomy, photorealistic, 8k resolution, perfectly timed movement.",
+      "negative_prompt": "text, watermark, logo, brand names, extra limbs, missing fingers, deformed hands, distorted face, bad anatomy, blurry, low resolution, static pose, cropped head, out of frame, cartoon, 3d render, illustration",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:25:59.677775",
+      "retries": 3,
+      "error": "Processing failed"
+    }
+  ],
   "metadata": {
     "created_at": "",
     "last_updated": "2026-09-14T14:25:57.175159",
