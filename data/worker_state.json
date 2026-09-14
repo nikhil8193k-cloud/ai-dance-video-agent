@@ -1,6 +1,6 @@
 {
-  "status": "idle",
-  "worker_id": "kaggle-c87c27",
-  "last_heartbeat": "2026-09-14T14:20:12.339848",
-  "current_job_id": null
+  "status": "working",
+  "worker_id": "kaggle-ba50d2",
+  "last_heartbeat": "2026-09-14T14:25:37.942638",
+  "current_job_id": "20260914081723-1"
 }
