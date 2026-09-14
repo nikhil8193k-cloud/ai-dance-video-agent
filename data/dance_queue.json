@@ -83,6 +83,90 @@
       "score": 8,
       "status": "queued",
       "created_at": "2026-09-14T20:15:12.486625+00:00"
+    },
+    {
+      "id": "20260914221448-1",
+      "title": "Sangeet Showdown",
+      "trend": "wedding crew battle",
+      "description": "Bride and groom crews face off in an explosive, synchronized Bollywood dance battle on a lavish wedding stage.",
+      "dance_style": "Bollywood Modern Sangeet",
+      "visual_style": "Lavish wedding luxury, sparkling pyro fireworks, rich warm tones",
+      "prompt": "High-octane Indian Sangeet wedding dance battle between the bride's crew and groom's crew on a grand floral stage with cold spark fountains firing. Dancers in coordinated regal sherwanis and glittering lehengas executing synchronized high-energy Bollywood steps, cinematic lens flare, dynamic tracking shot, 8k resolution.",
+      "score": 10,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-2",
+      "title": "Royal Moonlight Kathak",
+      "trend": "royal Indian dance",
+      "description": "A graceful Kathak dancer performs intricate spins and footwork in a moonlit palace courtyard with fountain reflections.",
+      "dance_style": "Kathak Classical Fusion",
+      "visual_style": "Royal cinematic, rich gold and emerald lighting, slow-motion ghungroo close-ups",
+      "prompt": "Cinematic ultra-realistic video of a female Kathak dancer performing graceful spins in an illuminated ancient Rajasthani palace courtyard at night. Wearing an ornate silk lehenga with golden embroidery, ghungroo bells on feet, surrounded by glowing oil lamps and reflections in a marble pool, 8k resolution, photorealistic lighting, dramatic camera slow motion movement.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-3",
+      "title": "Neon Garba Groove",
+      "trend": "Dandiya dance",
+      "description": "High-energy Garba performers play with glowing neon dandiya sticks under a starry festival night sky.",
+      "dance_style": "Gujarati Garba & Dandiya Raas",
+      "visual_style": "Vibrant neon night, cinematic festival bokeh, dynamic camera motion",
+      "prompt": "Energetic group of dancers playing traditional Dandiya with glowing LED light-up sticks in a night festival arena. Wearing modern fusion mirror-work chaniya cholis that catch the neon lights, dynamic swirling camera angles, festive crowd background with bokeh fairy lights, hyper-detailed 4k video, fluid dance motions.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-4",
+      "title": "Festival of Colors Blast",
+      "trend": "Indian festival dance",
+      "description": "Joyful dancers throw vivid powder while performing an upbeat, festive group dance routine.",
+      "dance_style": "Festive Bollywood Folk",
+      "visual_style": "Hyper-colorful, slow-motion powder explosion, bright natural daylight",
+      "prompt": "Slow-motion shot of a group of joyful dancers performing energetic festival choreography surrounded by bursts of pink, yellow, and blue powders in the air during Holi celebration. Sunlit outdoor courtyard, white traditional clothes stained with vibrant colors, high dynamic range, stunning color contrast, crystal clear details.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-5",
+      "title": "Desert Winds Kalbeliya",
+      "trend": "cinematic Indian dance",
+      "description": "A folk dancer twirls gracefully amidst golden sand dunes during a dramatic sunset.",
+      "dance_style": "Rajasthani Folk Fusion",
+      "visual_style": "Warm golden hour cinematic, sweeping desert landscapes, dramatic wind effects",
+      "prompt": "Cinematic drone shot of a female Rajasthani folk dancer spinning gracefully atop sweeping golden sand dunes at sunset. Flowing black and silver embellished traditional dress swirling in the desert breeze, sun flares, atmospheric dust particles catching golden light, cinematic motion, photorealistic quality.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-6",
+      "title": "Street Beats Bollywood",
+      "trend": "viral Indian dance",
+      "description": "A male solo dancer executes sharp urban Bollywood moves on a rain-slicked Mumbai street at dusk.",
+      "dance_style": "Urban Bollywood Hip-Hop",
+      "visual_style": "Gritty neon urban, rain reflections, crisp fast-paced camera work",
+      "prompt": "Energetic male dancer performing modern sharp Bollywood hip-hop choreography on a wet Mumbai street at twilight. Dynamic neon signs reflecting on puddles, wearing stylish Indo-western street fashion, smooth camera zoom and pan following fast footwork, ultra-realistic texture, vibrant color grading.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260914221448-7",
+      "title": "Temple Goddess Dance",
+      "trend": "female solo Indian dance",
+      "description": "A classical dancer performs expressive mudras on ancient stone steps as the sun sets behind a temple backdrop.",
+      "dance_style": "Classical Bharatanatyam Fusion",
+      "visual_style": "Atmospheric spiritual, golden sunset, architectural symmetry",
+      "prompt": "Ultra-realistic video of a classic Indian dancer performing Bharatanatyam mudras on carved stone steps of a South Indian temple complex during sunset. Wearing classic silk saree with Temple jewelry, warm sun rays beaming through ancient pillars, lotus pond backdrop, cinematic depth of field, graceful fluid motion.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T22:14:48.496604+00:00"
     }
   ],
   "completed": [],
@@ -696,8 +780,8 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T20:15:12.989342+00:00",
-    "total_generated": 7,
+    "last_updated": "2026-09-14T22:14:48.700804+00:00",
+    "total_generated": 14,
     "total_failed": 0
   }
 }
