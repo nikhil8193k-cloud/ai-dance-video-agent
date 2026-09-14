@@ -2,13 +2,8 @@ name: Trend Refresh
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: "0 */2 * * *"
   workflow_dispatch:
-    inputs:
-      force_refresh:
-        description: 'Force refresh even if recently run'
-        required: false
-        default: 'false'
 
 jobs:
   refresh-trends:
@@ -22,12 +17,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
-          python src/trend_agent.py
+          pip install -r requirements.txt
           pip install -U google-genai
 
       - name: Run Trend Agent
