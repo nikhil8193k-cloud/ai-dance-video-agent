@@ -431,14 +431,86 @@
       "negative_prompt": "text, logo, watermark, extra limbs, distorted feet, bad hands, morphing faces, static pose, cropped body, out of frame, blurry, low quality, glitch, duplicate dancers, text overlay",
       "duration": 5,
       "aspect_ratio": "9:16"
+    },
+    {
+      "id": "20260914141134-1",
+      "title": "Silk & Gold Bridal Flip",
+      "trend": "dance transition",
+      "description": "A casual rehearsal outfit instantly transforms into a opulent royal bridal lehenga on a dramatic beat drop.",
+      "dance_style": "Expressive Bollywood Solo",
+      "visual_style": "Seamless match-cut transition, glossy fashion reel aesthetic, warm luxury tone",
+      "prompt": "A young Indian woman dancing casually in modern clothes turns 360 degrees mid-dance and seamlessly transforms into a dazzling regal bride wearing an intricate crimson and gold silk lehenga with heavy Kundan jewelry. Cinematic camera zoom, glossy lighting, smooth transition effect, high resolution photorealistic render.",
+      "score": 10,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
+    },
+    {
+      "id": "20260914141134-2",
+      "title": "Royal Sangeet Face-Off",
+      "trend": "bride vs groom dance battle",
+      "description": "A high-stakes playful dance battle between bride and groom in a grand royal palace courtyard filled with sparklers.",
+      "dance_style": "High-energy Bollywood Sangeet fusion",
+      "visual_style": "Cinematic royal grandeur, slow-motion beat drops, gold and velvet aesthetic",
+      "prompt": "Cinematic 8k video of a stunning Indian bride in a heavily embroidered pastel pink lehenga and groom in a royal cream sherwani performing a synchronized dance battle in a lit Jaipur palace courtyard at night. Cold pyro sparklers erupting in background, dynamic low-angle camera tracking fast footwork, vibrant festive lighting, cinematic motion blur, volumetric light rays.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
+    },
+    {
+      "id": "20260914141134-3",
+      "title": "Cyberpunk Neon Garba",
+      "trend": "modern Garba",
+      "description": "A futuristic rooftop night Garba performance featuring LED dandiya sticks and neon chaniya cholis.",
+      "dance_style": "Modern Garba Pop Fusion",
+      "visual_style": "Cyberpunk night glow, vivid neon colors, dynamic fast-paced whip pans",
+      "prompt": "Full shot of dancers in futuristic glowing neon chaniya cholis spinning gracefully on a futuristic Mumbai rooftop overcast night sky. Holding light-up neon dandiya sticks that create light trails as they strike. Ultra-detailed 4k, hyper-realistic motion, glowing particle effects, vivid cyan and magenta lighting, cinematic camera rotation around the lead female dancer.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
+    },
+    {
+      "id": "20260914141134-4",
+      "title": "Street Spice Baraat Rush",
+      "trend": "street Indian dance",
+      "description": "An explosive high-energy street dance performance led by the groom's crew during a brass-band Baraat procession.",
+      "dance_style": "Bhangra Street Fusion",
+      "visual_style": "Vibrant festival chaos, handheld dynamic camera, rich gulal powder blasts",
+      "prompt": "Energetic group of men dancing Bhangra street fusion during an Indian wedding Baraat procession in a colorful alleyway. Bright orange and pink gulal powder flying in the air, brass band musicians playing in background, lens flares, energetic handheld camera motion, vibrant natural daylight, raw explosive fun energy.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
+    },
+    {
+      "id": "20260914141134-5",
+      "title": "Ghungroo Flame Kathak",
+      "trend": "Kathak fusion",
+      "description": "A solo female Kathak dancer executes lightning-fast spins amid swirling embers and dramatic lighting.",
+      "dance_style": "Classical Kathak Fusion",
+      "visual_style": "Dramatic contrast shadowplay, warm flame bokeh, ultra-high-speed capture",
+      "prompt": "Ultra-detailed shot of an expressive female Indian classical Kathak dancer executing rapid chakkar spins in an ancient stone temple. Golden ghungroos ringing on ankles, swirling red silk Anarkali dress floating in air. Sparks and fire embers drifting around her, dramatic directional moonlight through stone arches, dynamic 120fps slow-motion capture.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
+    },
+    {
+      "id": "20260914141134-6",
+      "title": "Ancient Temple Fire Fusion",
+      "trend": "classical Indian dance fusion",
+      "description": "A powerful duelling performance combining Bharatanatyam geometric postures with modern urban hip-hop.",
+      "dance_style": "Bharatanatyam Hip-Hop Fusion",
+      "visual_style": "Epic ancient temple setting, torchlight glow, stark shadows",
+      "prompt": "Two dancers, one female classical Bharatanatyam dancer in traditional silk temple attire and one male hip-hop dancer, performing a synchronized fusion duet in a cavernous ancient Indian stone temple. Surrounded by flaming brass oil lamps, atmospheric mist, intense shadow contrast, dramatic camera dolly in, striking pose alignment.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-14T14:11:34.359914+00:00"
     }
   ],
   "completed": [],
   "failed": [],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T12:20:19.648547+00:00",
-    "total_generated": 0,
+    "last_updated": "2026-09-14T14:11:34.555002+00:00",
+    "total_generated": 24,
     "total_failed": 0
   }
 }
