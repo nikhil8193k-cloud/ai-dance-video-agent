@@ -1,23 +1,6 @@
 {
   "queue": [
     {
-      "id": "20260914141134-1",
-      "title": "Silk & Gold Bridal Flip",
-      "trend": "dance transition",
-      "description": "A casual rehearsal outfit instantly transforms into a opulent royal bridal lehenga on a dramatic beat drop.",
-      "dance_style": "Expressive Bollywood Solo",
-      "visual_style": "Seamless match-cut transition, glossy fashion reel aesthetic, warm luxury tone",
-      "prompt": "A young Indian woman dancing casually in modern clothes turns 360 degrees mid-dance and seamlessly transforms into a dazzling regal bride wearing an intricate crimson and gold silk lehenga with heavy Kundan jewelry. Cinematic camera zoom, glossy lighting, smooth transition effect, high resolution photorealistic render.",
-      "score": 10,
-      "status": "processing",
-      "created_at": "2026-09-14T14:11:34.359914+00:00",
-      "job_id": "20260914141134-1",
-      "worker_id": "kaggle-65e86d",
-      "updated_at": "2026-09-14T14:46:26.164937",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "id": "20260914141134-2",
       "title": "Royal Sangeet Face-Off",
       "trend": "bride vs groom dance battle",
@@ -586,6 +569,23 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:34:47.846034",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "id": "20260914141134-1",
+      "title": "Silk & Gold Bridal Flip",
+      "trend": "dance transition",
+      "description": "A casual rehearsal outfit instantly transforms into a opulent royal bridal lehenga on a dramatic beat drop.",
+      "dance_style": "Expressive Bollywood Solo",
+      "visual_style": "Seamless match-cut transition, glossy fashion reel aesthetic, warm luxury tone",
+      "prompt": "A young Indian woman dancing casually in modern clothes turns 360 degrees mid-dance and seamlessly transforms into a dazzling regal bride wearing an intricate crimson and gold silk lehenga with heavy Kundan jewelry. Cinematic camera zoom, glossy lighting, smooth transition effect, high resolution photorealistic render.",
+      "score": 10,
+      "status": "failed",
+      "created_at": "2026-09-14T14:11:34.359914+00:00",
+      "job_id": "20260914141134-1",
+      "worker_id": "kaggle-65e86d",
+      "updated_at": "2026-09-14T14:46:28.556233",
       "retries": 3,
       "error": "Processing failed"
     }
