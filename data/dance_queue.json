@@ -1,34 +1,6 @@
 {
   "queue": [
     {
-      "job_id": "20260914081810-7",
-      "created_at": "2026-09-14T08:18:10.263588+00:00",
-      "status": "processing",
-      "trend": {
-        "trend": "Luxury Sangeet Waiter Prank",
-        "style": "Sangeet",
-        "hook": "Event staff drop their serving trays at a high-end wedding reception and instantly break into a crisp viral routine.",
-        "score": 10
-      },
-      "concept": {
-        "title": "Luxury Sangeet Waiter Surprise",
-        "dance_style": "Indian fusion",
-        "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
-        "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
-        "duration": 5,
-        "aspect_ratio": "9:16"
-      },
-      "title": "Luxury Sangeet Waiter Surprise",
-      "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
-      "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
-      "duration": 5,
-      "aspect_ratio": "9:16",
-      "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:29:04.251416",
-      "retries": 2,
-      "error": "Processing failed"
-    },
-    {
       "job_id": "20260914101530-1",
       "created_at": "2026-09-14T10:15:30.150716+00:00",
       "status": "pending",
@@ -532,6 +504,34 @@
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
       "updated_at": "2026-09-14T14:28:36.233818",
+      "retries": 3,
+      "error": "Processing failed"
+    },
+    {
+      "job_id": "20260914081810-7",
+      "created_at": "2026-09-14T08:18:10.263588+00:00",
+      "status": "failed",
+      "trend": {
+        "trend": "Luxury Sangeet Waiter Prank",
+        "style": "Sangeet",
+        "hook": "Event staff drop their serving trays at a high-end wedding reception and instantly break into a crisp viral routine.",
+        "score": 10
+      },
+      "concept": {
+        "title": "Luxury Sangeet Waiter Surprise",
+        "dance_style": "Indian fusion",
+        "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
+        "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
+        "duration": 5,
+        "aspect_ratio": "9:16"
+      },
+      "title": "Luxury Sangeet Waiter Surprise",
+      "visual_prompt": "Full-body vertical 9:16 cinematic shot of a stylish male dancer disguised as a waiter performing a dynamic Indian fusion dance routine at an opulent sangeet wedding reception. He is positioned in the center of a lavish ballroom with crystal chandeliers, floral decor, and glowing golden spotlights. He wears a sharp black formal vest over a crisp white button-down shirt with rolled sleeves and slim-fit trousers. He performs sharp, energetic Indian fusion moves—fast footwork, dramatic arm locks, and smooth body rolls—right after dropping a silver serving tray on the polished marble floor. The camera glides in a dynamic low-angle tracking arc around the dancer, capturing his full body from head to toe with fluid motion. Photorealistic, 8k resolution, realistic human anatomy, cinematic color grading, vibrant party atmosphere.",
+      "negative_prompt": "text, logos, watermarks, signature, extra limbs, missing limbs, mutated hands, distorted fingers, unnatural body proportions, bad anatomy, blur, low resolution, cropped head, cropped feet, out of frame, glitching, static pose",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "worker_id": "kaggle-ba50d2",
+      "updated_at": "2026-09-14T14:29:07.839647",
       "retries": 3,
       "error": "Processing failed"
     }
