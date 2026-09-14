@@ -5,14 +5,19 @@ name: Trend Refresh
     - cron: "0 */2 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   refresh-trends:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -27,14 +32,16 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
-        run: python trend_agent.py
+        run: |
+          python trend_agent.py
 
       - name: Run Orchestrator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
-        run: python orchestrator.py
+        run: |
+          python orchestrator.py
 
       - name: Log completion
         run: |
-          echo "Trend refresh completed"
+          echo "Trend refresh completed successfully"
