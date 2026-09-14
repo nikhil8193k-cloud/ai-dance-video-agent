@@ -9,11 +9,11 @@
       "visual_style": "Cyberpunk night glow, vivid neon colors, dynamic fast-paced whip pans",
       "prompt": "Full shot of dancers in futuristic glowing neon chaniya cholis spinning gracefully on a futuristic Mumbai rooftop overcast night sky. Holding light-up neon dandiya sticks that create light trails as they strike. Ultra-detailed 4k, hyper-realistic motion, glowing particle effects, vivid cyan and magenta lighting, cinematic camera rotation around the lead female dancer.",
       "score": 9,
-      "status": "pending",
+      "status": "processing",
       "created_at": "2026-09-14T14:11:34.359914+00:00",
       "job_id": "20260914141134-3",
       "worker_id": "kaggle-65e86d",
-      "updated_at": "2026-09-14T14:47:19.448435",
+      "updated_at": "2026-09-14T14:47:26.831279",
       "retries": 2,
       "error": "Processing failed"
     },
@@ -600,7 +600,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:47:16.499000",
+    "last_updated": "2026-09-14T14:47:26.831292",
     "total_generated": 24,
     "total_failed": 0
   }
