@@ -3,7 +3,7 @@
     {
       "job_id": "20260914122019-4",
       "created_at": "2026-09-14T12:20:19.366688+00:00",
-      "status": "pending",
+      "status": "processing",
       "trend": {
         "trend": "Indo-Afrobeat Energy Sync",
         "style": "Bhangra Fusion",
@@ -24,7 +24,7 @@
       "duration": 5,
       "aspect_ratio": "9:16",
       "worker_id": "kaggle-ba50d2",
-      "updated_at": "2026-09-14T14:34:27.498625",
+      "updated_at": "2026-09-14T14:34:35.002331",
       "retries": 1,
       "error": "Processing failed"
     },
@@ -582,7 +582,7 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T14:34:24.291718",
+    "last_updated": "2026-09-14T14:34:35.002344",
     "total_generated": 24,
     "total_failed": 0
   }
