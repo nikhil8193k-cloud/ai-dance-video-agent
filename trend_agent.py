@@ -4,12 +4,13 @@ Discovers Hindi trends via Google News RSS, scores them with Gemini,
 and generates unique fictional adult dance video concepts.
 """
 
+import base64
 import json
 import os
 import re
 import time
 import uuid
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Any
 
 import feedparser
@@ -51,7 +52,7 @@ DANCE_STYLES = [
 SETTINGS: dict[str, Any] = {}
 
 # Current Gemini model
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.6-flash"
 
 
 # ── Gemini ───────────────────────────────────────────────────────────────────
@@ -87,24 +88,10 @@ def load_settings() -> dict:
         return {}
 
 
-def load_json(path: str) -> dict:
-    try:
-        with open(path) as f:
-            return json.load(f)
-    except Exception:
-        return {}
-
-
-def save_json(path: str, data: dict) -> None:
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-
-# ── GitHub helpers ───────────────────────────────────────────────────────────
-
 def github_get(path: str) -> dict | None:
     """Read a file from GitHub via API."""
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+
     headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
@@ -113,9 +100,8 @@ def github_get(path: str) -> dict | None:
     r = requests.get(url, headers=headers, timeout=15)
 
     if r.status_code == 200:
-        import base64
-
         content = base64.b64decode(r.json()["content"]).decode()
+
         return {
             "data": json.loads(content),
             "sha": r.json()["sha"],
@@ -131,7 +117,6 @@ def github_put(
     message: str = "update",
 ) -> bool:
     """Write a file to GitHub via API."""
-    import base64
 
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
 
@@ -141,7 +126,11 @@ def github_put(
     }
 
     content = base64.b64encode(
-        json.dumps(data, indent=2, ensure_ascii=False).encode()
+        json.dumps(
+            data,
+            indent=2,
+            ensure_ascii=False,
+        ).encode()
     ).decode()
 
     payload: dict = {
@@ -166,6 +155,7 @@ def github_put(
 
 def fetch_raw_trends() -> list[str]:
     """Pull titles from Google News RSS feeds."""
+
     trends: list[str] = []
 
     for url in RSS_FEEDS:
@@ -185,7 +175,9 @@ def fetch_raw_trends() -> list[str]:
                     trends.append(title)
 
         except Exception as e:
-            print(f"[TrendAgent] RSS error for {url}: {e}")
+            print(
+                f"[TrendAgent] RSS error for {url}: {e}"
+            )
 
         time.sleep(0.5)
 
@@ -362,21 +354,6 @@ Return ONLY valid JSON:
 
 # ── Queue management ─────────────────────────────────────────────────────────
 
-def build_job(concept: dict) -> dict:
-    now = datetime.utcnow().isoformat()
-
-    return {
-        "job_id": str(uuid.uuid4()),
-        "status": "pending",
-        "created_at": now,
-        "updated_at": now,
-        "retries": 0,
-        "concept": concept,
-        "output_path": None,
-        "error": None,
-    }
-
-
 def add_jobs_to_queue(
     new_jobs: list[dict],
 ) -> None:
@@ -434,6 +411,21 @@ def add_jobs_to_queue(
         print(
             "[TrendAgent] ERROR: failed to update queue"
         )
+
+
+def build_job(concept: dict) -> dict:
+    now = datetime.utcnow().isoformat()
+
+    return {
+        "job_id": str(uuid.uuid4()),
+        "status": "pending",
+        "created_at": now,
+        "updated_at": now,
+        "retries": 0,
+        "concept": concept,
+        "output_path": None,
+        "error": None,
+    }
 
 
 # ── Main entrypoint ──────────────────────────────────────────────────────────
