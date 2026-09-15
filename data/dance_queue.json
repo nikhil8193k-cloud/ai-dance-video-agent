@@ -167,6 +167,90 @@
       "score": 8,
       "status": "queued",
       "created_at": "2026-09-14T22:14:48.496604+00:00"
+    },
+    {
+      "id": "20260915002152-1",
+      "title": "Neon Garba Fusion",
+      "trend": "festival performance",
+      "description": "Dancers perform energetic traditional Garba in neon-glowing embroidered outfits under a starry night sky.",
+      "dance_style": "Garba / Gujarati Folk",
+      "visual_style": "Vibrant neon illumination, slow-motion spins, dark desert backdrop with glowing sparks",
+      "prompt": "Full wide shot of dancers spinning in a traditional Garba circle, vibrant illuminated neon ghagra cholis, glowing dandiya sticks clashing with floating particle effects, cinematic 4k, dark desert backdrop under a starry night sky, energetic motion blur",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-2",
+      "title": "Royal Mirror Sangeet",
+      "trend": "sangeet performance",
+      "description": "A bride and groom perform a romantic synchronized Bollywood duet on a reflective glass stage illuminated by fairy lights.",
+      "dance_style": "Bollywood Romance / Sangeet Duet",
+      "visual_style": "Warm royal gold tones, reflective floor, soft bokeh lighting, falling flower petals",
+      "prompt": "Cinematic camera movement following a bride in a shimmering gold lehenga and groom in a cream sherwani dancing synchronized Bollywood steps, floor made of mirrored glass reflecting warm fairy lights, falling marigold petals, graceful fluid movement, 8k resolution",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-3",
+      "title": "Fireworks Baraat Energy",
+      "trend": "Indian wedding dance",
+      "description": "A group of groomsmen performs explosive synchronized wedding steps surrounded by colorful smoke and wedding sparklers.",
+      "dance_style": "High-Energy Bhangra / Modern Bollywood",
+      "visual_style": "Saturated celebration colors, dynamic hand-held camera movement, sparkler lens flares",
+      "prompt": "Dynamic tracked camera shot of five male dancers in matching pastel sherwanis performing high-energy Bhangra shoulder hops, vibrant pink and orange smoke behind them, sparkling handheld fireworks, joyful festive Indian wedding crowd, vivid cinematic lighting",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-4",
+      "title": "Cyberpunk Kathak Beats",
+      "trend": "Indian fashion dance",
+      "description": "A classical Kathak dancer in modern metallic fusion wear performs intricate footwork against a rainy neon street backdrop.",
+      "dance_style": "Kathak Fusion",
+      "visual_style": "Cyberpunk aesthetic, high contrast neon lighting, wet asphalt reflections, dramatic speed ramping",
+      "prompt": "Medium shot of a female dancer executing fast Kathak footwork and spins, wearing a futuristic silver embroidered Anarkali suit, dynamic ghungroo anklet close-up, rainy urban street night background, neon blue and pink lighting, ultra-realistic visual effects",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-5",
+      "title": "Royal Courtyard Tandava",
+      "trend": "male solo Indian dance",
+      "description": "A male dancer delivers a powerful, high-energy classical contemporary solo in an ancient sandstone palace courtyard.",
+      "dance_style": "Contemporary Classical / Tandava Inspired",
+      "visual_style": "Dramatic golden hour lighting, low angle tracking shot, floating dust motes catching sunlight",
+      "prompt": "Dramatic low angle camera shot of a male dancer doing powerful leaps and graceful mudras in a sandstone palace courtyard during golden hour, wearing a royal silk achkan, sunbeams filtering through carved arches, cinematic dust motes, majestic motion",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-6",
+      "title": "Desert Sunset Dance Challenge",
+      "trend": "dance challenge",
+      "description": "A duo performs a fast-paced viral dance challenge blending folk twirls with hip-hop on golden sand dunes.",
+      "dance_style": "Folk Hip-Hop Fusion",
+      "visual_style": "Sunset golden backlight, flowing black and silver skirts, sweeping camera motion",
+      "prompt": "Sweeping camera arc around two dancers executing sharp synchronized dance challenge moves on a sand dune at golden sunset, swishing black Rajasthani flared dresses with mirror work catching the sun, dramatic warm backlighting, high contrast motion blur",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915002152-7",
+      "title": "Lotus Pond Temple Symphony",
+      "trend": "Indian music dance",
+      "description": "A classical dancer performs precise mudras on stone steps above a misty lotus pond inside an ancient temple.",
+      "dance_style": "Bharatanatyam",
+      "visual_style": "Ethereal atmospheric mist, rich temple stone textures, emerald and gold color palette",
+      "prompt": "Symmetrical center-framed shot of a female Bharatanatyam dancer in traditional silk temple attire executing sharp mudras and eye movements, standing on carved stone steps above a misty lotus pond in an ancient South Indian temple, soft morning light rays filtering through pillars",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T00:21:52.006002+00:00"
     }
   ],
   "completed": [],
@@ -780,8 +864,8 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-14T22:14:48.700804+00:00",
-    "total_generated": 14,
+    "last_updated": "2026-09-15T00:21:52.208774+00:00",
+    "total_generated": 21,
     "total_failed": 0
   }
 }
