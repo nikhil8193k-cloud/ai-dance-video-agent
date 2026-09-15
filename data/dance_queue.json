@@ -251,6 +251,78 @@
       "score": 8,
       "status": "queued",
       "created_at": "2026-09-15T00:21:52.006002+00:00"
+    },
+    {
+      "id": "20260915021635-1",
+      "title": "Royal Palace Sangeet Glow",
+      "trend": "sangeet dance",
+      "description": "A bride and groom lead an energetic choreography surrounded by family under sparkling fairy lights in an opulent Rajasthani palace courtyard.",
+      "dance_style": "Sangeet Fusion / Modern Bollywood",
+      "visual_style": "Cinematic, warm golden lighting, 8k resolution, slow-motion tracking shot",
+      "prompt": "A high-energy Indian Sangeet dance in an intricate Rajasthani palace courtyard at night. A glamorous couple in shimmering golden lehenga and sherwani performing synchronized modern Bollywood steps with a group of celebratory dancers behind them. Sparkling fairy lights, marigold garlands, fireworks in the background, cinematic 4k video, smooth camera movement.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
+    },
+    {
+      "id": "20260915021635-2",
+      "title": "Royal Garba Circle of Colors",
+      "trend": "group dance",
+      "description": "A massive synchronized group performs vibrant Garba in swirling traditional attire under a starry night sky.",
+      "dance_style": "Traditional Gujarati Garba / Folk",
+      "visual_style": "Vibrant color palette, bird's-eye view opening to dynamic low angle, high frame rate",
+      "prompt": "Synchronized group dance of fifty dancers in colorful embroidered Chaniya Cholis performing traditional Garba around a glowing central diya. Sweeping circular camera movement, vibrant red and mirrorwork embroidery, festival atmosphere, golden hour blending into dusk, highly detailed 8k cinematic video.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
+    },
+    {
+      "id": "20260915021635-3",
+      "title": "Kathak Fusion in Ancient Temple",
+      "trend": "Bollywood dance",
+      "description": "A graceful solo dancer blends classical Kathak spins with expressive cinematic storytelling amidst ancient carved stone pillars.",
+      "dance_style": "Kathak-Bollywood Fusion",
+      "visual_style": "Ethereal god rays, historic architectural aesthetic, slow-motion fluid motion",
+      "prompt": "A graceful dancer performing fast Kathak pirouettes inside an ancient carved stone temple courtyard. Dust motes dancing in shafts of morning sunlight, red silk Anarkali swirling, ghungroo bells visible on ankles, dramatic low-angle slow-motion shot, breathtaking lighting, masterpiece quality.",
+      "score": 9,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
+    },
+    {
+      "id": "20260915021635-4",
+      "title": "Neon Street Bollywood Beat",
+      "trend": "Bollywood dance",
+      "description": "A lead dancer performs high-octane hip-hop mixed with classic Bollywood moves on a wet Mumbai street illuminated by vibrant neon signs.",
+      "dance_style": "Bollywood Urban Hip-Hop Fusion",
+      "visual_style": "Cyberpunk neon, anamorphic lens flare, moody rain reflections, dynamic camera tracking",
+      "prompt": "Full body shot of a vibrant male dancer performing high-energy Bollywood hip-hop choreography on a rain-slicked night street in Mumbai. Vibrant neon lights reflecting off puddles, magenta and teal color grading, intense energy, volumetric fog, dynamic camera whip pans, ultra-realistic visual quality.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
+    },
+    {
+      "id": "20260915021635-5",
+      "title": "Velvet & Mirrorwork Sangeet Faceoff",
+      "trend": "sangeet dance",
+      "description": "A friendly dance battle between two sides of a wedding party featuring rapid footwork and joyful expressions in a luxury ballroom.",
+      "dance_style": "Contemporary Sangeet Bhangra Fusion",
+      "visual_style": "Glamorous, high-contrast lighting, festive, crystal chandelier reflections",
+      "prompt": "Two opposing groups of elegant Indian wedding guests engaged in a lively, joyful Sangeet dance battle inside a lavish grand ballroom. Crystal chandeliers, mirrorwork lehengas spinning in slow motion, energetic expressions, vibrant red and emerald green tones, smooth camera gliding past dancers.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
+    },
+    {
+      "id": "20260915021635-6",
+      "title": "Sunset Beach Bhangra Energy",
+      "trend": "group dance",
+      "description": "An exhilarating group of dancers executes powerful Bhangra moves along a tropical coastline at sunset.",
+      "dance_style": "High-Energy Punjabi Bhangra",
+      "visual_style": "Warm sunset glow, silhouetted ocean waves, energetic handheld cinematic tracking",
+      "prompt": "An energetic group of six Punjabi dancers in bright yellow and orange traditional Kurta pajama doing high-energy Bhangra on a golden sandy beach at sunset. Ocean waves crashing in background, warm lens flare, synchronized shoulder jumps and spins, dynamic gimbal tracking shot, highly realistic.",
+      "score": 8,
+      "status": "queued",
+      "created_at": "2026-09-15T02:16:35.896993+00:00"
     }
   ],
   "completed": [],
@@ -864,8 +936,8 @@
   ],
   "metadata": {
     "created_at": "",
-    "last_updated": "2026-09-15T00:21:52.208774+00:00",
-    "total_generated": 21,
+    "last_updated": "2026-09-15T02:16:36.151856+00:00",
+    "total_generated": 27,
     "total_failed": 0
   }
 }
