@@ -98,5 +98,40 @@
     "title": "Temple Goddess Dance",
     "trend": "female solo Indian dance",
     "created_at": "2026-09-14T22:14:49.740701+00:00"
+  },
+  {
+    "title": "Neon Garba Fusion",
+    "trend": "festival performance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Royal Mirror Sangeet",
+    "trend": "sangeet performance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Fireworks Baraat Energy",
+    "trend": "Indian wedding dance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Cyberpunk Kathak Beats",
+    "trend": "Indian fashion dance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Royal Courtyard Tandava",
+    "trend": "male solo Indian dance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Desert Sunset Dance Challenge",
+    "trend": "dance challenge",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
+  },
+  {
+    "title": "Lotus Pond Temple Symphony",
+    "trend": "Indian music dance",
+    "created_at": "2026-09-15T00:21:53.192479+00:00"
   }
 ]
